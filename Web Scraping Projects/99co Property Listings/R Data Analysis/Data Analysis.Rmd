@@ -1,0 +1,647 @@
+---
+title: "Property Listing Data Analysis"
+author: "alc00"
+date: "12/13/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Connecting to the Database
+
+## Loading the Necessary Libraries
+```{r, message=FALSE}
+# dplyr - Data Manipulation and Core Module for dbplyr
+library(dplyr)
+
+# dbplyr - Required for Connection to SQLite Database
+library(dbplyr)
+
+# RSQLite - Required for Connection to SQLite Database
+library(RSQLite)
+
+# sqldf - Allows you to use SQL for R objects
+library(sqldf)
+
+# Caret - Useful Package for Predictive Modeling
+library(caret)
+
+# rjson - Reads JSON data
+library(rjson)
+```
+
+## Connecting to SQLite Database
+
+```{r}
+db_file_path <- "C:/Users/Allen/Desktop/Code/Projects/Property/SQLite/project_property.db"
+
+db <- DBI::dbConnect(RSQLite::SQLite(), db_file_path)
+```
+
+## Check Database Connection
+```{r}
+src_dbi(db)
+```
+# Data Analysis
+
+## Query and Clean Data using SQL and dump data as CSV for Tableau Public
+```{r}
+DM_99_CO_LISTING_SUMMARY_T <- tbl(db, sql(
+                      "
+                      SELECT
+                      DTIME_INSERTED,
+                      LISTING_TYPE,
+                      RENTAL_TYPE,
+                      LISTING_ID,
+                      LISTING_NAME,
+                      VALUE,
+                      VALUE_PSF,
+                      CASE WHEN CNT_BEDS = 'N/A' THEN NULL ELSE CNT_BEDS END AS CNT_BEDS,
+                      CASE WHEN CNT_BATHS = 'N/A' THEN NULL ELSE CNT_BATHS END AS CNT_BATHS,
+                      SIZE_SQFT,
+                      LATITUDE,
+                      LONGITUDE,
+                      LISTING_LINK
+                      FROM DM_99_CO_LISTING_SUMMARY_T
+                      "))
+
+DM_99_CO_LISTING_ADD_INFO_T <- tbl(db, sql(
+                      "
+                      SELECT 
+                      * 
+                      FROM DM_99_CO_LISTING_ADD_INFO_T
+                      "))
+
+DM_99_CO_LISTING_PROPERTY_T <- tbl(db, sql(
+                      "
+                      SELECT 
+                      * 
+                      FROM DM_99_CO_LISTING_PROPERTY_T
+                      "))
+
+DM_99_CO_LISTING_AMENITIES_T <- tbl(db, sql(
+                      "
+                      SELECT * FROM DM_99_CO_LISTING_AMENITIES_T
+                      "))
+
+write.csv(DM_99_CO_LISTING_SUMMARY_T, "C:/Users/Allen/Desktop/Code/Projects/Property/Tableau Public Data/DM_99_CO_LISTING_SUMMARY_T.csv")
+
+write.csv(DM_99_CO_LISTING_ADD_INFO_T, "C:/Users/Allen/Desktop/Code/Projects/Property/Tableau Public Data/DM_99_CO_LISTING_ADD_INFO_T.csv")
+
+write.csv(DM_99_CO_LISTING_PROPERTY_T, "C:/Users/Allen/Desktop/Code/Projects/Property/Tableau Public Data/DM_99_CO_LISTING_PROPERTY_T.csv")
+
+write.csv(DM_99_CO_LISTING_AMENITIES_T, "C:/Users/Allen/Desktop/Code/Projects/Property/Tableau Public Data/DM_99_CO_LISTING_AMENITIES_T.csv")
+```
+
+## Temporary Fix: SQFT Fix
+```{r}
+DM_99_CO_LISTING_SUMMARY_T <- DM_99_CO_LISTING_SUMMARY_T %>% mutate(SQFT_FIX = VALUE/VALUE_PSF)
+```
+
+## Addition of Descriptive Statistics for Use in Predictive Model
+
+### Remaining Government Lease
+```{r}
+current_year_int <- as.numeric(as.character(Sys.Date(),"%Y"))
+
+DM_99_CO_LISTING_PROPERTY_T <-
+DM_99_CO_LISTING_PROPERTY_T %>% mutate(
+    remaining_gov_lease =
+      if(GOV_LEASE == "N/A" | BUILD_YEAR == "N/A" | GOV_LEASE == "-") {
+      NULL
+    } else if (GOV_LEASE == "Freehold") {
+      "Freehold"
+    } else {
+      as.character((as.numeric(BUILD_YEAR) + as.numeric(GOV_LEASE)) - current_year_int)
+    })
+```
+
+### Amenities Count and Indicators
+```{r}
+
+# Check Top Amenities for Sale Listings
+tbl(db, sql(
+            "
+            SELECT 
+            A.NAME_AMENITY,
+            COUNT(1) CNT
+            FROM DM_99_CO_LISTING_AMENITIES_T A
+            JOIN DM_99_CO_LISTING_SUMMARY_T B
+              ON A.LISTING_ID = B.LISTING_ID
+            WHERE B.LISTING_TYPE = 'Sale'
+            GROUP BY
+            A.NAME_AMENITY
+            ORDER BY 2 DESC
+            "))
+
+# Check Top Amenities for Rental Unit Listings
+tbl(db, sql(
+            "
+            SELECT 
+            A.NAME_AMENITY,
+            COUNT(1) CNT
+            FROM DM_99_CO_LISTING_AMENITIES_T A
+            JOIN DM_99_CO_LISTING_SUMMARY_T B
+              ON A.LISTING_ID = B.LISTING_ID
+            WHERE B.LISTING_TYPE = 'Rental'
+            AND B.RENTAL_TYPE = 'Entire Unit/Property'
+            GROUP BY
+            A.NAME_AMENITY
+            ORDER BY 2 DESC
+            "))
+
+# Check Top Amenities for Rental Room Listings
+tbl(db, sql(
+            "
+            SELECT 
+            A.NAME_AMENITY,
+            COUNT(1) CNT
+            FROM DM_99_CO_LISTING_AMENITIES_T A
+            JOIN DM_99_CO_LISTING_SUMMARY_T B
+              ON A.LISTING_ID = B.LISTING_ID
+            WHERE B.LISTING_TYPE = 'Rental'
+            AND B.RENTAL_TYPE <> 'Entire Unit/Property'
+            GROUP BY
+            A.NAME_AMENITY
+            ORDER BY 2 DESC
+            "))
+
+
+# Get Relevant Amenities for Sale Listings
+listing_sale_amenities <-
+  tbl(db, sql(
+            "
+            SELECT 
+            A.LISTING_ID,
+            COUNT(DISTINCT A.NAME_AMENITY) CNT_AMENITIES,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Gym' THEN 1 ELSE 0 END) FLAG_GYM,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Balcony' THEN 1 ELSE 0 END) FLAG_BALCONY,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Playground' THEN 1 ELSE 0 END) FLAG_PLAYGROUND,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Security' THEN 1 ELSE 0 END) FLAG_SECURITY,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Swimming Pool' THEN 1 ELSE 0 END) FLAG_POOL,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Renovated' THEN 1 ELSE 0 END) FLAG_RENOVATED,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Parking' THEN 1 ELSE 0 END) FLAG_PARKING,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Jacuzzi' THEN 1 ELSE 0 END) FLAG_JACUZZI,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Fibre Ready' THEN 1 ELSE 0 END) FLAG_FIBRE,
+            SUM(CASE WHEN A.NAME_AMENITY = 'City View' THEN 1 ELSE 0 END) FLAG_CITY_VIEW,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Pool View' THEN 1 ELSE 0 END) FLAG_POOL_VIEW,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Maid Room' THEN 1 ELSE 0 END) FLAG_MAID_ROOM,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Study Room' THEN 1 ELSE 0 END) FLAG_STUDY_ROOM,
+            SUM(CASE WHEN A.NAME_AMENITY = 'High Floor' THEN 1 ELSE 0 END) FLAG_HIGH_FLOOR,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Mid Floor' THEN 1 ELSE 0 END) FLAG_MID_FLOOR,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Low Floor' THEN 1 ELSE 0 END) FLAG_LOW_FLOOR,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Top Floor' THEN 1 ELSE 0 END) FLAG_TOP_FLOOR,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Penthouse' THEN 1 ELSE 0 END) FLAG_PENTHOUSE
+            FROM DM_99_CO_LISTING_AMENITIES_T A
+            JOIN DM_99_CO_LISTING_SUMMARY_T B
+              ON A.LISTING_ID = B.LISTING_ID
+            WHERE B.LISTING_TYPE = 'Sale'
+            GROUP BY A.LISTING_ID
+            "))
+
+# Get Relevant Amenities for Rental Unit Listings
+listing_rental_unit_amenities <-
+  tbl(db, sql(
+            "
+            SELECT 
+            A.LISTING_ID,
+            COUNT(DISTINCT A.NAME_AMENITY) CNT_AMENITIES,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Aircon' THEN 1 ELSE 0 END) FLAG_AIRCON,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Fridge' THEN 1 ELSE 0 END) FLAG_FRIDGE,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Washer' THEN 1 ELSE 0 END) FLAG_WASHER,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Stove' THEN 1 ELSE 0 END) FLAG_STOVE,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Oven' THEN 1 ELSE 0 END) FLAG_OVEN,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Dryer' THEN 1 ELSE 0 END) FLAG_DRYER,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Bed' THEN 1 ELSE 0 END) FLAG_BED,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Closet' THEN 1 ELSE 0 END) FLAG_CLOSET,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Sofa' THEN 1 ELSE 0 END) FLAG_SOFA,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Dining Room Furniture	' THEN 1 ELSE 0 END) FLAG_DINING,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Bathtub' THEN 1 ELSE 0 END) FLAG_BATHTUB,
+            SUM(CASE WHEN A.NAME_AMENITY = 'TV' THEN 1 ELSE 0 END) FLAG_TV,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Gym' THEN 1 ELSE 0 END) FLAG_GYM,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Balcony' THEN 1 ELSE 0 END) FLAG_BALCONY,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Playground' THEN 1 ELSE 0 END) FLAG_PLAYGROUND,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Security' THEN 1 ELSE 0 END) FLAG_SECURITY,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Swimming Pool' THEN 1 ELSE 0 END) FLAG_POOL,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Renovated' THEN 1 ELSE 0 END) FLAG_RENOVATED,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Parking' THEN 1 ELSE 0 END) FLAG_PARKING,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Jacuzzi' THEN 1 ELSE 0 END) FLAG_JACUZZI,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Fibre Ready' THEN 1 ELSE 0 END) FLAG_FIBRE,
+            SUM(CASE WHEN A.NAME_AMENITY = 'City View' THEN 1 ELSE 0 END) FLAG_CITY_VIEW,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Pool View' THEN 1 ELSE 0 END) FLAG_POOL_VIEW,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Maid Room' THEN 1 ELSE 0 END) FLAG_MAID_ROOM,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Study Room' THEN 1 ELSE 0 END) FLAG_STUDY_ROOM,
+            SUM(CASE WHEN A.NAME_AMENITY = 'High Floor' THEN 1 ELSE 0 END) FLAG_HIGH_FLOOR,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Mid Floor' THEN 1 ELSE 0 END) FLAG_MID_FLOOR,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Low Floor' THEN 1 ELSE 0 END) FLAG_LOW_FLOOR,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Top Floor' THEN 1 ELSE 0 END) FLAG_TOP_FLOOR,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Penthouse' THEN 1 ELSE 0 END) FLAG_PENTHOUSE
+            FROM DM_99_CO_LISTING_AMENITIES_T A
+            JOIN DM_99_CO_LISTING_SUMMARY_T B
+              ON A.LISTING_ID = B.LISTING_ID
+            WHERE B.LISTING_TYPE = 'Rental'
+            AND B.RENTAL_TYPE = 'Entire Unit/Property'
+            GROUP BY A.LISTING_ID
+            "))
+
+
+# Get Relevant Amenities for Rental Room Listings
+listing_rental_room_amenities <- 
+  tbl(db, sql(
+            "
+            SELECT 
+            A.LISTING_ID,
+            COUNT(DISTINCT A.NAME_AMENITY) CNT_AMENITIES,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Aircon' THEN 1 ELSE 0 END) FLAG_AIRCON,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Fridge' THEN 1 ELSE 0 END) FLAG_FRIDGE,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Washer' THEN 1 ELSE 0 END) FLAG_WASHER,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Stove' THEN 1 ELSE 0 END) FLAG_STOVE,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Oven' THEN 1 ELSE 0 END) FLAG_OVEN,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Dryer' THEN 1 ELSE 0 END) FLAG_DRYER,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Bed' THEN 1 ELSE 0 END) FLAG_BED,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Closet' THEN 1 ELSE 0 END) FLAG_CLOSET,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Sofa' THEN 1 ELSE 0 END) FLAG_SOFA,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Dining Room Furniture	' THEN 1 ELSE 0 END) FLAG_DINING,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Bathtub' THEN 1 ELSE 0 END) FLAG_BATHTUB,
+            SUM(CASE WHEN A.NAME_AMENITY = 'TV' THEN 1 ELSE 0 END) FLAG_TV,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Wireless Internet' THEN 1 ELSE 0 END) FLAG_WIFI,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Attached Bathroom' THEN 1 ELSE 0 END) FLAG_BATHROOM,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Gym' THEN 1 ELSE 0 END) FLAG_GYM,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Balcony' THEN 1 ELSE 0 END) FLAG_BALCONY,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Playground' THEN 1 ELSE 0 END) FLAG_PLAYGROUND,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Security' THEN 1 ELSE 0 END) FLAG_SECURITY,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Swimming Pool' THEN 1 ELSE 0 END) FLAG_POOL,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Renovated' THEN 1 ELSE 0 END) FLAG_RENOVATED,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Parking' THEN 1 ELSE 0 END) FLAG_PARKING,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Jacuzzi' THEN 1 ELSE 0 END) FLAG_JACUZZI,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Fibre Ready' THEN 1 ELSE 0 END) FLAG_FIBRE,
+            SUM(CASE WHEN A.NAME_AMENITY = 'City View' THEN 1 ELSE 0 END) FLAG_CITY_VIEW,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Pool View' THEN 1 ELSE 0 END) FLAG_POOL_VIEW,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Maid Room' THEN 1 ELSE 0 END) FLAG_MAID_ROOM,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Study Room' THEN 1 ELSE 0 END) FLAG_STUDY_ROOM,
+            SUM(CASE WHEN A.NAME_AMENITY = 'High Floor' THEN 1 ELSE 0 END) FLAG_HIGH_FLOOR,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Mid Floor' THEN 1 ELSE 0 END) FLAG_MID_FLOOR,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Low Floor' THEN 1 ELSE 0 END) FLAG_LOW_FLOOR,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Top Floor' THEN 1 ELSE 0 END) FLAG_TOP_FLOOR,
+            SUM(CASE WHEN A.NAME_AMENITY = 'Penthouse' THEN 1 ELSE 0 END) FLAG_PENTHOUSE
+            FROM DM_99_CO_LISTING_AMENITIES_T A
+            JOIN DM_99_CO_LISTING_SUMMARY_T B
+              ON A.LISTING_ID = B.LISTING_ID
+            WHERE B.LISTING_TYPE = 'Rental'
+            AND B.RENTAL_TYPE <> 'Entire Unit/Property'
+            GROUP BY A.LISTING_ID
+            "))
+
+head(listing_rental_room_amenities)
+head(listing_rental_unit_amenities)
+head(listing_sale_amenities)
+
+```
+### Convert SQLite Connection Tables to Dataframe and Basic Data Type Changes
+```{r}
+listing_summary_df <- data.frame(DM_99_CO_LISTING_SUMMARY_T)
+listing_add_info_df <- data.frame(DM_99_CO_LISTING_ADD_INFO_T)
+listing_property_df <- data.frame(DM_99_CO_LISTING_PROPERTY_T)
+
+listing_rental_room_amenities_df <- data.frame(listing_rental_room_amenities)
+listing_rental_unit_amenities_df <- data.frame(listing_rental_unit_amenities)
+listing_sale_amenities_df <- data.frame(listing_sale_amenities)
+
+
+listing_summary_df[,"CNT_BEDS"] = as.character(listing_summary_df[,"CNT_BEDS"])
+listing_summary_df[,"CNT_BATHS"] = as.character(listing_summary_df[,"CNT_BATHS"])
+
+```
+
+
+### Add Location Data based on GPS Data using Photon Geocoding API
+```{r}
+
+countrycode <- vector()
+county <- vector()
+district <- vector()
+postcode <- vector()
+
+row_count <- nrow(listing_summary_df)
+
+for (i in 1:row_count) {
+  long <- (listing_summary_df[i, "LONGITUDE"])
+  lat <- (listing_summary_df[i, "LATITUDE"])
+  
+  url_rev_geocode <- paste("https://photon.komoot.io/reverse?lon=", long, "&lat=", lat, sep="")
+
+  raw_json_rev_geocode <- fromJSON(file = url_rev_geocode)
+  
+  countrycode <- append(countrycode, 
+                        ifelse(is.null(raw_json_rev_geocode$features[[1]]$properties$countrycode),
+                               "N/A",
+                               raw_json_rev_geocode$features[[1]]$properties$countrycode
+                        ))
+  
+  county <- append(county,
+                        ifelse(is.null(raw_json_rev_geocode$features[[1]]$properties$county),
+                               "N/A",
+                               raw_json_rev_geocode$features[[1]]$properties$county
+                        ))
+  
+  district <- append(district, 
+                        ifelse(is.null(raw_json_rev_geocode$features[[1]]$properties$district),
+                               "N/A",
+                               raw_json_rev_geocode$features[[1]]$properties$district
+                        ))
+  
+  postcode <- append(postcode, 
+                        ifelse(is.null(raw_json_rev_geocode$features[[1]]$properties$postcode),
+                               "N/A",
+                               raw_json_rev_geocode$features[[1]]$properties$postcode
+                        ))
+  
+  print(paste("row", i, "of", row_count))
+}
+
+listing_summary_df <- cbind(listing_summary_df, data.frame(countrycode = countrycode))
+listing_summary_df <- cbind(listing_summary_df, data.frame(county = county))
+listing_summary_df <- cbind(listing_summary_df, data.frame(district = district))
+listing_summary_df <- cbind(listing_summary_df, data.frame(postcode = postcode))
+
+```
+
+
+## Create Predictive Model to get Predicted Listing Value and Value PSF
+The goal would be to create a model that would provide the market listing price and price per square foot based on other listings with similar attributes. This would help determine if the listing is over or under market value.
+
+Note that this will be based on listing price rather than actual price (price sold to tenant/buyer), due to data limitations. This will assume that listing price is near the actual price or that the difference between the actual price and the listing price is relatively consistent.
+
+Predictions:
+I. Sales
+  1) Estimated Property Valuation (Value)
+  2) Estimated Property Valuation per Square Foot (Value PSF)
+II. Rental
+  1) Estimated Rental Valuation (Value)
+  2) Estimated Rental Valuation per Square Foot (Value PSF)
+  3) Estimated Property Valuation (Value - Property)
+  4) Estimated Property Valuation per Square Foot (Value PSF - Property)
+
+### Sale Listings
+
+#### Join and Clean Tables
+```{r}
+sale_predictive_data_raw <- 
+  sqldf("SELECT
+        A.LISTING_ID,
+        A.VALUE,
+        A.VALUE_PSF,
+        A.SQFT_FIX SIZE_SQFT,
+        C.TYPE BUILDING_TYPE,
+        A.DISTRICT DISTRICT,
+        CASE WHEN C.remaining_gov_lease IS NULL THEN 'NO DATA'
+             WHEN C.remaining_gov_lease = 'Freehold' THEN 'Freehold'
+             WHEN C.remaining_gov_lease <= 20 THEN '0-20 YEARS LEFT'
+             WHEN C.remaining_gov_lease <= 40 THEN '21-40 YEARS LEFT'
+             WHEN C.remaining_gov_lease <= 60 THEN '41-60 YEARS LEFT'
+             WHEN C.remaining_gov_lease <= 80 THEN '61-80 YEARS LEFT'
+             WHEN C.remaining_gov_lease <= 99 THEN '81-99 YEARS LEFT'
+             ELSE 'MORE THAN 99 YEARS LEFT'
+             END AS GOV_LEASE_DURATION
+        FROM listing_summary_df A
+        LEFT JOIN listing_add_info_df B
+          ON A.LISTING_ID = B.LISTING_ID
+        LEFT JOIN listing_property_df C
+          ON B.PROPERTY_ID = C.PROPERTY_ID
+        LEFT JOIN listing_sale_amenities_df D
+          ON A.LISTING_ID = D.LISTING_ID
+        WHERE A.LISTING_TYPE = 'Sale'
+        ")
+
+sale_predictive_data_raw[,grepl('FLAG', colnames(sale_predictive_data_raw))] <-
+  sale_predictive_data_raw[,grepl('FLAG', colnames(sale_predictive_data_raw))] %>%
+    lapply(FUN = as.character)
+
+summary(sale_predictive_data_raw)
+
+```
+
+#### Create Random Forest Model to fit variables to Price per Square Foot
+```{r}
+set.seed(20201217)
+
+sales_model_variables <- 
+  sale_predictive_data_raw[, !colnames(sale_predictive_data_raw) %in% c("LISTING_ID", "VALUE", "SIZE_SQFT")]
+
+sales_model_rf_c <- train(VALUE_PSF~., data=sales_model_variables, method = "rf")
+
+model_results <- data.frame(cbind(sale_predictive_data_raw$VALUE_PSF, predict(sales_model_rf_c,sales_model_variables)))
+
+colnames(model_results) <- c("actual", "fitted")
+
+model_results[,"Difference"] <- model_results$fitted - model_results$actual
+
+diff_results <- mean(abs(model_results$Difference/model_results$actual))
+```
+
+First Iteration: Average deviation of fitted values to actual values = 16.09%
+
+#### Attach Results to Data - Sales
+```{r}
+listing_id_sale_val_results <- cbind(sale_predictive_data_raw$LISTING_ID, model_results[,2],                                    ifelse(abs(model_results$Difference/model_results$actual) <=
+                                            diff_results,"Within Range", "Outside Range"))
+
+colnames(listing_id_sale_val_results) <- c("LISTING_ID", "FITTED_PROPERTY_PSF", "PSF_RF_RANGE")
+
+listing_id_sale_val_results <- data.frame(listing_id_sale_val_results)
+
+```
+
+### Rental Unit Listings
+
+#### Join and Clean Data
+```{r}
+rental_unit_predictive_data_raw <- 
+  sqldf("SELECT
+        A.LISTING_ID,
+        A.VALUE,
+        A.VALUE_PSF,
+        A.SQFT_FIX SIZE_SQFT,
+        C.TYPE BUILDING_TYPE,
+        A.DISTRICT DISTRICT,
+        CASE WHEN C.remaining_gov_lease IS NULL THEN 'NO DATA'
+           WHEN C.remaining_gov_lease = 'Freehold' THEN 'Freehold'
+           WHEN C.remaining_gov_lease <= 20 THEN '0-20 YEARS LEFT'
+           WHEN C.remaining_gov_lease <= 40 THEN '21-40 YEARS LEFT'
+           WHEN C.remaining_gov_lease <= 60 THEN '41-60 YEARS LEFT'
+           WHEN C.remaining_gov_lease <= 80 THEN '61-80 YEARS LEFT'
+           WHEN C.remaining_gov_lease <= 99 THEN '81-99 YEARS LEFT'
+           ELSE 'MORE THAN 99 YEARS LEFT'
+           END AS GOV_LEASE_DURATION
+        FROM listing_summary_df A
+        LEFT JOIN listing_add_info_df B
+          ON A.LISTING_ID = B.LISTING_ID
+        LEFT JOIN listing_property_df C
+          ON B.PROPERTY_ID = C.PROPERTY_ID
+        LEFT JOIN listing_rental_unit_amenities_df D
+          ON A.LISTING_ID = D.LISTING_ID
+        WHERE A.LISTING_TYPE = 'Rental'
+        AND A.RENTAL_TYPE = 'Entire Unit/Property'
+        ")
+
+rental_unit_predictive_data_raw[,grepl('FLAG', colnames(rental_unit_predictive_data_raw))] <-
+  rental_unit_predictive_data_raw[,grepl('FLAG', colnames(rental_unit_predictive_data_raw))] %>%
+    lapply(FUN = as.character)
+
+summary(rental_unit_predictive_data_raw)
+```
+
+#### Create Random Forest Model to fit variables to Price per Square Foot
+```{r}
+set.seed(20201217)
+
+rent_unit_model_variables <- 
+  rental_unit_predictive_data_raw[, !colnames(rental_unit_predictive_data_raw) %in% c("LISTING_ID", "VALUE", "SIZE_SQFT")]
+
+rental_unit_model_rf_c <- train(VALUE_PSF~., data=rent_unit_model_variables, method = "rf")
+
+model_results_1 <- data.frame(cbind(rental_unit_predictive_data_raw$VALUE_PSF, predict(rental_unit_model_rf_c,rent_unit_model_variables)))
+
+colnames(model_results_1) <- c("actual", "fitted")
+
+model_results_1[,"Difference"] <- model_results_1$fitted - model_results_1$actual
+
+diff_results <- mean(abs(model_results_1$Difference/model_results_1$actual))
+```
+
+Initial Iteration: 24.47% average deviation from fitted values
+
+#### Create Random Forest Model to Estimate Property Valuation
+```{r}
+model_results_2 <- data.frame(cbind(rental_unit_predictive_data_raw$VALUE_PSF, predict(sales_model_rf_c,rent_unit_model_variables)))
+```
+
+#### Attach Results to Data - Rental Units
+```{r}
+listing_id_ru_val_results <- cbind(rental_unit_predictive_data_raw$LISTING_ID, model_results_2[,2], 
+                                   ifelse(abs(model_results_1$Difference/model_results_1$actual) <=
+                                            diff_results,"Within Range", "Outside Range"))
+
+colnames(listing_id_ru_val_results) <- c("LISTING_ID", "FITTED_PROPERTY_PSF", "PSF_RF_RANGE")
+
+listing_id_ru_val_results <- data.frame(listing_id_ru_val_results)
+
+```
+
+### Rental Room Listings
+
+#### Join and Clean Data
+```{r}
+rental_room_predictive_data_raw <- 
+  sqldf("SELECT
+        A.LISTING_ID,
+        A.VALUE,
+        A.VALUE_PSF,
+        A.SQFT_FIX SIZE_SQFT,
+        C.TYPE BUILDING_TYPE,
+        A.DISTRICT DISTRICT,
+        CASE WHEN C.remaining_gov_lease IS NULL THEN 'NO DATA'
+             WHEN C.remaining_gov_lease = 'Freehold' THEN 'Freehold'
+             WHEN C.remaining_gov_lease <= 20 THEN '0-20 YEARS LEFT'
+             WHEN C.remaining_gov_lease <= 40 THEN '21-40 YEARS LEFT'
+             WHEN C.remaining_gov_lease <= 60 THEN '41-60 YEARS LEFT'
+             WHEN C.remaining_gov_lease <= 80 THEN '61-80 YEARS LEFT'
+             WHEN C.remaining_gov_lease <= 99 THEN '81-99 YEARS LEFT'
+             ELSE 'MORE THAN 99 YEARS LEFT'
+             END AS GOV_LEASE_DURATION
+        FROM listing_summary_df A
+        LEFT JOIN listing_add_info_df B
+          ON A.LISTING_ID = B.LISTING_ID
+        LEFT JOIN listing_property_df C
+          ON B.PROPERTY_ID = C.PROPERTY_ID
+        LEFT JOIN listing_rental_room_amenities_df D
+          ON A.LISTING_ID = D.LISTING_ID
+        WHERE A.LISTING_TYPE = 'Rental'
+        AND A.RENTAL_TYPE <> 'Entire Unit/Property'
+        ")
+
+rental_room_predictive_data_raw[,grepl('FLAG', colnames(rental_room_predictive_data_raw))] <-
+  rental_room_predictive_data_raw[,grepl('FLAG', colnames(rental_room_predictive_data_raw))] %>%
+    lapply(FUN = as.character)
+
+summary(rental_room_predictive_data_raw)
+```
+
+#### Create Random Forest Model to fit variables to Price per Square Foot
+```{r}
+set.seed(20201217)
+
+rent_room_model_variables <- 
+  rental_room_predictive_data_raw[, !colnames(rental_room_predictive_data_raw) %in% c("LISTING_ID", "VALUE", "SIZE_SQFT")]
+
+rental_room_model_rf_c <- train(VALUE_PSF~., data=rent_room_model_variables, method = "rf")
+
+model_results_1 <- data.frame(cbind(rent_room_model_variables$VALUE_PSF, predict(rental_room_model_rf_c,rent_room_model_variables)))
+
+colnames(model_results_1) <- c("actual", "fitted")
+
+model_results_1[,"Difference"] <- model_results_1$fitted - model_results_1$actual
+
+diff_results <- mean(abs(model_results_1$Difference/ifelse(model_results_1$actual==0,1,model_results_1$actual)))
+```
+
+Initial Iteration: 82.62% average deviation from fitted values
+
+
+#### Create Random Forest Model to Estimate Property Valuation
+```{r}
+
+# Replace Districts with More Generalized Area due to limitations in Model
+rent_room_model_variables[rent_room_model_variables$DISTRICT=="Kallang Way", "DISTRICT"] = "Kallang"
+rent_room_model_variables[rent_room_model_variables$DISTRICT=="Serangoon North", "DISTRICT"] = "Serangoon"
+
+model_results_2 <- data.frame(cbind(rent_room_model_variables$VALUE_PSF, predict(sales_model_rf_c,rent_room_model_variables)))
+
+
+```
+
+
+#### Attach Results to Data - Rental Rooms
+```{r}
+listing_id_rr_val_results <- cbind(rental_room_predictive_data_raw$LISTING_ID, model_results_2[,2], 
+                                   ifelse(abs(model_results_1$Difference/model_results_1$actual) <=
+                                            diff_results,"Within Range", "Outside Range"))
+
+colnames(listing_id_rr_val_results) <- c("LISTING_ID", "FITTED_PROPERTY_PSF", "PSF_RF_RANGE")
+
+listing_id_rr_val_results <- data.frame(listing_id_rr_val_results)
+
+```
+
+
+### Consolidate Results
+```{r}
+listing_summary_df_2 <- sqldf(
+  "
+  SELECT
+  A.*,
+  CASE WHEN B.FITTED_PROPERTY_PSF IS NOT NULL THEN B.FITTED_PROPERTY_PSF
+       WHEN C.FITTED_PROPERTY_PSF IS NOT NULL THEN C.FITTED_PROPERTY_PSF
+       WHEN D.FITTED_PROPERTY_PSF IS NOT NULL THEN D.FITTED_PROPERTY_PSF
+       ELSE NULL
+       END AS FITTED_PROPERTY_PSF,
+  CASE WHEN B.PSF_RF_RANGE IS NOT NULL THEN B.PSF_RF_RANGE
+       WHEN C.PSF_RF_RANGE IS NOT NULL THEN C.PSF_RF_RANGE
+       WHEN D.PSF_RF_RANGE IS NOT NULL THEN D.PSF_RF_RANGE
+       ELSE NULL
+       END AS PSF_RF_RANGE
+  FROM listing_summary_df A
+  LEFT JOIN listing_id_sale_val_results B
+    ON A.LISTING_ID = B.LISTING_ID
+  LEFT JOIN listing_id_ru_val_results C
+    ON A.LISTING_ID = C.LISTING_ID
+  LEFT JOIN listing_id_rr_val_results D
+    ON A.LISTING_ID = D.LISTING_ID
+  "
+)
+
+write.csv(listing_summary_df_2, "C:/Users/Allen/Desktop/Code/Projects/Property/Tableau Public Data/DM_99_CO_LISTING_SUMMARY_T.csv")
+```
+

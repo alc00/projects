@@ -1,0 +1,1559 @@
+"","LISTING_ID","LEASE_START","LEASE_TYPE","LEASE_FACING","LEASE_FURNITURE","RULE_PETS","RULE_COOKING","RULE_GUESTS","LEASE_STAY_IN_OWNER","RULE_SMOKING","PROPERTY_ID"
+"1",1,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",1
+"2",2,"Now","12 months","N/A","N/A","Not Allowed","N/A","Not Allowed","Yes","Not Allowed",2
+"3",3,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",3
+"4",4,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",4
+"5",5,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",4
+"6",6,"Now","12 months","N/A","N/A","Not Allowed","N/A","Not Allowed","N/A","Not Allowed",6
+"7",7,"01 Feb 2021","12 months","N/A","N/A","N/A","N/A","Not Allowed","Yes","Not Allowed",7
+"8",8,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",8
+"9",9,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",8
+"10",10,"N/A","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",10
+"11",11,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",11
+"12",12,"N/A","Flexible","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","N/A",12
+"13",13,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",13
+"14",14,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",14
+"15",15,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","N/A","N/A","N/A",15
+"16",16,"Now","12 months","N/A","N/A","N/A","Not Allowed","Not Allowed","Yes","Not Allowed",16
+"17",17,"Now","Flexible","N/A","N/A","N/A","Not Allowed","N/A","N/A","N/A",17
+"18",18,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",18
+"19",19,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",19
+"20",20,"N/A","Flexible","N/A","N/A","N/A","N/A","Not Allowed","Yes","Not Allowed",20
+"21",21,"N/A","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",21
+"22",22,"N/A","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",21
+"23",23,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",23
+"24",24,"N/A","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",24
+"25",25,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","N/A","Yes","Not Allowed",13
+"26",26,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",26
+"27",27,"N/A","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","N/A","N/A",27
+"28",28,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",13
+"29",29,"01 Jan 2021","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",29
+"30",30,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",30
+"31",31,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",31
+"32",32,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",32
+"33",33,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",33
+"34",34,"01 Jan 2021","Flexible","N/A","N/A","N/A","N/A","N/A","Yes","N/A",34
+"35",35,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",35
+"36",36,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",35
+"37",37,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",37
+"38",38,"Now","Flexible","N/A","N/A","Not Allowed","Allowed","Not Allowed","Yes","Not Allowed",38
+"39",39,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",39
+"40",40,"Now","Flexible","North South","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",40
+"41",41,"N/A","Flexible","N/A","N/A","Not Allowed","N/A","Not Allowed","N/A","Not Allowed",41
+"42",42,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",42
+"43",43,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",43
+"44",44,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",44
+"45",45,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",45
+"46",46,"Now","12 months","N/A","N/A","N/A","N/A","Not Allowed","Yes","Not Allowed",46
+"47",47,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",46
+"48",48,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",48
+"49",49,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",49
+"50",50,"N/A","12 months","N/A","N/A","Not Allowed","N/A","N/A","N/A","N/A",50
+"51",51,"N/A","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",51
+"52",52,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",51
+"53",53,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",53
+"54",54,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",54
+"55",55,"N/A","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",55
+"56",56,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",44
+"57",57,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","N/A","Yes","N/A",57
+"58",58,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",58
+"59",59,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",58
+"60",60,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",60
+"61",61,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",13
+"62",62,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",62
+"63",63,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",63
+"64",64,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",64
+"65",65,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","N/A","N/A","N/A",65
+"66",66,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",66
+"67",67,"N/A","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",67
+"68",68,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",68
+"69",69,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",69
+"70",70,"Now","12 months","N/A","N/A","N/A","N/A","Not Allowed","Yes","Not Allowed",70
+"71",71,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",18
+"72",72,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",72
+"73",73,"01 Jan 2021","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",73
+"74",74,"Now","Flexible","N/A","N/A","N/A","N/A","Not Allowed","Yes","N/A",74
+"75",75,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",75
+"76",76,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",76
+"77",77,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",13
+"78",78,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","N/A","Yes","N/A",78
+"79",79,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",78
+"80",80,"N/A","Flexible","N/A","N/A","Not Allowed","N/A","Not Allowed","N/A","N/A",80
+"81",81,"N/A","Flexible","N/A","N/A","N/A","Allowed","N/A","N/A","N/A",81
+"82",82,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Allowed","Yes","Not Allowed",1
+"83",83,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","N/A","N/A","N/A",83
+"84",84,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",84
+"85",85,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",85
+"86",86,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","N/A",86
+"87",87,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",87
+"88",88,"N/A","Flexible","N/A","N/A","N/A","Light Cooking Allowed","N/A","N/A","N/A",66
+"89",89,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","Yes","N/A",89
+"90",90,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",90
+"91",91,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",91
+"92",92,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",91
+"93",93,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",93
+"94",94,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",94
+"95",95,"N/A","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",95
+"96",96,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","N/A",96
+"97",97,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",97
+"98",98,"Now","12 months","N/A","N/A","N/A","N/A","N/A","Yes","N/A",98
+"99",99,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",99
+"100",100,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",99
+"101",101,"01 Jan 2021","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",101
+"102",102,"02 Jan 2021","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",42
+"103",103,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",103
+"104",104,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",13
+"105",105,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",13
+"106",106,"N/A","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",106
+"107",107,"N/A","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",106
+"108",108,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",108
+"109",109,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",108
+"110",110,"Now","12 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",110
+"111",111,"N/A","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",111
+"112",112,"20 Dec 2020","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",96
+"113",113,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",113
+"114",114,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","Yes","Not Allowed",114
+"115",115,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",115
+"116",116,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",116
+"117",117,"Now","Flexible","N/A","Fully Furnished","Not Allowed","Light Cooking Allowed","N/A","N/A","N/A",117
+"118",118,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",118
+"119",119,"N/A","Flexible","N/A","N/A","N/A","N/A","Not Allowed","Yes","Not Allowed",119
+"120",120,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",120
+"121",121,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",121
+"122",122,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",122
+"123",123,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",123
+"124",124,"Now","12 months","N/A","N/A","Not Allowed","N/A","Not Allowed","Yes","Not Allowed",124
+"125",125,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",124
+"126",126,"Now","Flexible","N/A","Fully Furnished","Not Allowed","Allowed","N/A","N/A","N/A",126
+"127",127,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",127
+"128",128,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",128
+"129",129,"N/A","12 months","N/A","N/A","N/A","Not Allowed","Not Allowed","Yes","Not Allowed",128
+"130",130,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",130
+"131",131,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",131
+"132",132,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","N/A","Yes","N/A",132
+"133",133,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",130
+"134",134,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",134
+"135",135,"31 Dec 2020","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",135
+"136",136,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",136
+"137",137,"N/A","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","N/A",137
+"138",138,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",138
+"139",139,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",139
+"140",140,"N/A","Flexible","N/A","N/A","N/A","Not Allowed","Not Allowed","Yes","Not Allowed",140
+"141",141,"N/A","Flexible","N/A","N/A","N/A","N/A","Not Allowed","Yes","Not Allowed",141
+"142",142,"Now","12 months","N/A","N/A","Not Allowed","N/A","N/A","N/A","Not Allowed",141
+"143",143,"Now","Flexible","N/A","N/A","Not Allowed","N/A","N/A","N/A","N/A",141
+"144",144,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",144
+"145",145,"N/A","Flexible","N/A","N/A","Not Allowed","N/A","Not Allowed","Yes","Not Allowed",141
+"146",146,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",144
+"147",147,"04 Jan 2021","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",144
+"148",148,"N/A","Flexible","N/A","N/A","N/A","Light Cooking Allowed","N/A","N/A","N/A",144
+"149",149,"21 Dec 2020","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",149
+"150",150,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",137
+"151",151,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",151
+"152",152,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",152
+"153",153,"N/A","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",153
+"154",154,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",154
+"155",155,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","N/A","N/A","N/A",155
+"156",156,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",156
+"157",157,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",157
+"158",158,"Now","12 months","N/A","N/A","N/A","Not Allowed","Not Allowed","Yes","N/A",158
+"159",159,"N/A","12 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",159
+"160",160,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",160
+"161",161,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","N/A","Not Allowed",161
+"162",162,"N/A","Flexible","N/A","N/A","Not Allowed","N/A","Not Allowed","Yes","Not Allowed",162
+"163",163,"Now","Flexible","N/A","N/A","N/A","Not Allowed","Not Allowed","Yes","Not Allowed",163
+"164",164,"Now","24 months","N/A","N/A","N/A","Light Cooking Allowed","N/A","No","N/A",164
+"165",165,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",13
+"166",166,"Now","12 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","Yes","Not Allowed",166
+"167",167,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","N/A",159
+"168",168,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",159
+"169",169,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",169
+"170",170,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",50
+"171",171,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",171
+"172",172,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","N/A","N/A","N/A",172
+"173",173,"N/A","12 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",173
+"174",174,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",174
+"175",175,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",175
+"176",176,"Now","12 months","N/A","N/A","N/A","Allowed","Not Allowed","No","N/A",176
+"177",177,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",177
+"178",178,"01 Jan 2021","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",178
+"179",179,"N/A","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",179
+"180",180,"01 Jan 2021","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",180
+"181",181,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",181
+"182",182,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",181
+"183",183,"N/A","Flexible","N/A","N/A","N/A","Not Allowed","N/A","Yes","N/A",183
+"184",184,"16 Jan 2021","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","N/A",13
+"185",185,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",13
+"186",186,"N/A","Flexible","N/A","N/A","Not Allowed","N/A","Not Allowed","No","Not Allowed",186
+"187",187,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",187
+"188",188,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",188
+"189",189,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",189
+"190",190,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",189
+"191",191,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",191
+"192",192,"N/A","12 months","N/A","N/A","N/A","N/A","Not Allowed","N/A","Not Allowed",191
+"193",193,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Allowed",193
+"194",194,"Now","24 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",194
+"195",195,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",195
+"196",196,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",196
+"197",197,"Now","12 months","N/A","N/A","N/A","Not Allowed","Not Allowed","Yes","Not Allowed",197
+"198",198,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",198
+"199",199,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","No","N/A",198
+"200",200,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",200
+"201",201,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",200
+"202",202,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",202
+"203",203,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",203
+"204",204,"01 Jan 2021","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",204
+"205",205,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",205
+"206",206,"21 Dec 2020","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","Yes","Not Allowed",205
+"207",207,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",130
+"208",208,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",208
+"209",209,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",209
+"210",210,"Now","24 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",210
+"211",211,"N/A","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","Yes","Not Allowed",211
+"212",212,"N/A","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",212
+"213",213,"N/A","Flexible","N/A","N/A","N/A","Allowed","N/A","No","N/A",213
+"214",214,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",214
+"215",215,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",215
+"216",216,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",215
+"217",217,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",217
+"218",218,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",218
+"219",219,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","N/A","N/A",219
+"220",220,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",220
+"221",221,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",221
+"222",222,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",222
+"223",223,"Now","Flexible","N/A","Fully Furnished","N/A","Not Allowed","N/A","N/A","N/A",222
+"224",224,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",224
+"225",225,"Now","12 months","N/A","N/A","N/A","Allowed","N/A","Yes","N/A",225
+"226",226,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","N/A","Yes","N/A",225
+"227",227,"N/A","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",227
+"228",228,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",228
+"229",229,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",229
+"230",230,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",229
+"231",231,"22 Dec 2020","24 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",231
+"232",232,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",232
+"233",233,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",233
+"234",234,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",234
+"235",235,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",235
+"236",236,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",236
+"237",237,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","Yes","N/A",237
+"238",238,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",238
+"239",239,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",239
+"240",240,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",240
+"241",241,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",241
+"242",242,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",242
+"243",243,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",243
+"244",244,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","N/A",244
+"245",245,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",245
+"246",246,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",246
+"247",247,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",247
+"248",248,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",248
+"249",249,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",249
+"250",250,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",248
+"251",251,"10 Jan 2021","12 months","N/A","N/A","N/A","N/A","N/A","Yes","N/A",248
+"252",252,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",248
+"253",253,"Now","12 months","N/A","N/A","Not Allowed","N/A","N/A","N/A","N/A",13
+"254",254,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",13
+"255",255,"N/A","Flexible","N/A","N/A","N/A","Not Allowed","N/A","Yes","N/A",13
+"256",256,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",13
+"257",257,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",257
+"258",258,"Now","Flexible","N/A","N/A","Not Allowed","N/A","Not Allowed","Yes","Not Allowed",258
+"259",259,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",259
+"260",260,"02 Jan 2021","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",260
+"261",261,"Now","Flexible","N/A","N/A","N/A","Not Allowed","Not Allowed","Yes","Not Allowed",261
+"262",262,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",262
+"263",263,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","N/A","Not Allowed",263
+"264",264,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",20
+"265",265,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",265
+"266",266,"Now","12 months","North","Fully Furnished","N/A","Light Cooking Allowed","N/A","N/A","N/A",266
+"267",267,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",96
+"268",268,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","No","Not Allowed",96
+"269",269,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",269
+"270",270,"N/A","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",270
+"271",271,"14 Dec 2020","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",270
+"272",272,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",272
+"273",273,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",272
+"274",274,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",274
+"275",275,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",275
+"276",276,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",276
+"277",277,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",277
+"278",278,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",278
+"279",279,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",279
+"280",280,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",280
+"281",281,"Now","12 months","N/A","N/A","N/A","N/A","Not Allowed","Yes","Not Allowed",265
+"282",282,"N/A","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",282
+"283",283,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",282
+"284",284,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","N/A","N/A",18
+"285",285,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",285
+"286",286,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",286
+"287",287,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",287
+"288",288,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",288
+"289",289,"07 Jan 2021","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",289
+"290",290,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",290
+"291",291,"N/A","Flexible","N/A","N/A","Not Allowed","N/A","N/A","Yes","Not Allowed",291
+"292",292,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",292
+"293",293,"01 Jan 2021","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",293
+"294",294,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","Yes","N/A",294
+"295",295,"Now","Flexible","N/A","N/A","Allowed","Allowed","N/A","N/A","N/A",295
+"296",296,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",295
+"297",297,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",297
+"298",298,"Now","12 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",298
+"299",299,"Now","Flexible","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",298
+"300",300,"Now","12 months","N/A","N/A","Not Allowed","Allowed","N/A","N/A","Not Allowed",298
+"301",301,"Now","Flexible","N/A","N/A","Not Allowed","Allowed","Allowed","N/A","Not Allowed",301
+"302",302,"N/A","Flexible","N/A","N/A","Not Allowed","N/A","N/A","No","N/A",302
+"303",303,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","N/A","Not Allowed",303
+"304",304,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",304
+"305",305,"Now","Flexible","N/A","N/A","Not Allowed","Allowed","N/A","No","N/A",305
+"306",306,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","Yes","N/A",306
+"307",307,"N/A","Flexible","N/A","N/A","N/A","N/A","Not Allowed","Yes","Not Allowed",301
+"308",308,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",308
+"309",309,"31 Dec 2020","12 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",309
+"310",310,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",310
+"311",311,"N/A","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","No","Not Allowed",311
+"312",312,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","No","Not Allowed",301
+"313",313,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",313
+"314",314,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",314
+"315",315,"Now","12 months","N/A","N/A","Not Allowed","N/A","N/A","Yes","N/A",315
+"316",316,"N/A","12 months","N/A","N/A","Not Allowed","N/A","Allowed","N/A","N/A",316
+"317",317,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Allowed","No","N/A",316
+"318",318,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",318
+"319",319,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",319
+"320",320,"N/A","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","No","Not Allowed",320
+"321",321,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",321
+"322",322,"N/A","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",322
+"323",323,"N/A","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",322
+"324",324,"Now","Flexible","North South","Fully Furnished","Not Allowed","Allowed","N/A","N/A","N/A",324
+"325",325,"Now","12 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",325
+"326",326,"Now","Flexible","N/A","Partially Furnished","N/A","Allowed","N/A","N/A","N/A",325
+"327",327,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",327
+"328",328,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",328
+"329",329,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",301
+"330",330,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",330
+"331",331,"N/A","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",331
+"332",332,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",332
+"333",333,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",333
+"334",334,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","No","Not Allowed",334
+"335",335,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","N/A","Not Allowed",335
+"336",336,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",336
+"337",337,"Now","24 months","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","Yes","Not Allowed",337
+"338",338,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",338
+"339",339,"Now","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",339
+"340",340,"Now","12 months","N/A","N/A","N/A","Allowed","N/A","No","N/A",340
+"341",341,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",340
+"342",342,"N/A","Flexible","N/A","N/A","Not Allowed","N/A","Not Allowed","N/A","Not Allowed",301
+"343",343,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","N/A","No","Not Allowed",343
+"344",344,"N/A","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","No","Not Allowed",344
+"345",345,"Now","12 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",345
+"346",346,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",301
+"347",347,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",347
+"348",348,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",347
+"349",349,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","Yes","Not Allowed",349
+"350",350,"N/A","12 months","N/A","Fully Furnished","N/A","N/A","N/A","Yes","N/A",350
+"351",351,"Now","12 months","N/A","N/A","N/A","N/A","N/A","Yes","N/A",350
+"352",352,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",352
+"353",353,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",353
+"354",354,"02 Jan 2021","Flexible","N/A","N/A","N/A","Light Cooking Allowed","N/A","N/A","N/A",354
+"355",355,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",355
+"356",356,"N/A","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","No","N/A",356
+"357",357,"Now","Flexible","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",357
+"358",358,"Now","Flexible","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",357
+"359",359,"Now","12 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",357
+"360",360,"21 Dec 2020","12 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",357
+"361",361,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","No","N/A",357
+"362",362,"Now","12 months","N/A","N/A","N/A","Allowed","N/A","No","N/A",357
+"363",363,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",363
+"364",364,"N/A","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",364
+"365",365,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","Yes","N/A",364
+"366",366,"N/A","24 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","No","Not Allowed",301
+"367",367,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",367
+"368",368,"Now","Flexible","N/A","Fully Furnished","Not Allowed","Allowed","N/A","N/A","N/A",301
+"369",369,"N/A","Flexible","N/A","N/A","N/A","Not Allowed","N/A","N/A","N/A",301
+"370",370,"Now","12 months","North","Partially Furnished","N/A","Allowed","N/A","N/A","N/A",370
+"371",371,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",301
+"372",372,"Now","12 months","N/A","N/A","N/A","Allowed","Not Allowed","No","Not Allowed",372
+"373",373,"Now","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",372
+"374",374,"Now","Flexible","N/A","Fully Furnished","N/A","Allowed","N/A","N/A","N/A",372
+"375",375,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",375
+"376",376,"Now","12 months","N/A","Fully Furnished","Not Allowed","Light Cooking Allowed","N/A","N/A","N/A",376
+"377",377,"N/A","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",377
+"378",378,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",378
+"379",379,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",379
+"380",380,"Now","24 months","N/A","N/A","N/A","Allowed","Not Allowed","Yes","Not Allowed",301
+"381",381,"31 Oct 2021","Flexible","N/A","Fully Furnished","N/A","Allowed","N/A","N/A","N/A",381
+"382",382,"N/A","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",382
+"383",383,"N/A","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","No","Not Allowed",301
+"384",384,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","No","Not Allowed",301
+"385",385,"15 Dec 2020","12 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","Yes","Not Allowed",301
+"386",386,"N/A","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",386
+"387",387,"Now","12 months","N/A","N/A","N/A","N/A","N/A","Yes","N/A",387
+"388",388,"Now","Flexible","N/A","N/A","Not Allowed","N/A","N/A","N/A","N/A",388
+"389",389,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",301
+"390",390,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","Yes","Not Allowed",390
+"391",391,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","N/A","N/A","N/A",391
+"392",392,"15 Feb 2021","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","Yes","Not Allowed",392
+"393",393,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","No","Not Allowed",393
+"394",394,"Now","Flexible","South East","Fully Furnished","Not Allowed","Light Cooking Allowed","N/A","N/A","N/A",394
+"395",395,"01 Jan 2021","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",395
+"396",396,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",396
+"397",397,"Now","Flexible","N/A","N/A","Not Allowed","N/A","N/A","N/A","Not Allowed",396
+"398",398,"N/A","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",396
+"399",399,"N/A","12 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","No","N/A",396
+"400",400,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",400
+"401",401,"23 Dec 2020","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",400
+"402",402,"N/A","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",402
+"403",403,"Now","12 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",402
+"404",404,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",404
+"405",405,"Now","Flexible","N/A","N/A","N/A","Allowed","Allowed","N/A","N/A",405
+"406",406,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",406
+"407",407,"Now","12 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","N/A",406
+"408",408,"02 Jan 2021","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",408
+"409",409,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",408
+"410",410,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",408
+"411",411,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","N/A","No","N/A",411
+"412",412,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",411
+"413",413,"Now","12 months","N/A","N/A","Not Allowed","Allowed","Allowed","No","Not Allowed",413
+"414",414,"Now","Flexible","N/A","N/A","N/A","Allowed","Allowed","Yes","N/A",413
+"415",415,"N/A","Flexible","N/A","N/A","N/A","Allowed","N/A","No","N/A",415
+"416",416,"N/A","Flexible","N/A","N/A","N/A","Allowed","N/A","No","N/A",415
+"417",417,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","No","Not Allowed",417
+"418",418,"N/A","12 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",417
+"419",419,"N/A","12 months","N/A","N/A","Not Allowed","N/A","N/A","Yes","N/A",419
+"420",420,"N/A","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",420
+"421",421,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","No","N/A",420
+"422",422,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","N/A","Yes","Not Allowed",301
+"423",423,"26 May 2021","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","N/A","Not Allowed",423
+"424",424,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","No","N/A",424
+"425",425,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","No","Not Allowed",425
+"426",426,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",425
+"427",427,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","No","Not Allowed",425
+"428",428,"01 Jan 2021","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",428
+"429",429,"Now","Flexible","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",429
+"430",430,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",430
+"431",431,"Now","24 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",431
+"432",432,"Now","12 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",432
+"433",433,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",433
+"434",434,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",433
+"435",435,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",301
+"436",436,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",436
+"437",437,"Now","24 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",437
+"438",438,"N/A","Flexible","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",438
+"439",439,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",438
+"440",440,"Now","12 months","N/A","N/A","N/A","Allowed","N/A","No","N/A",440
+"441",441,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","N/A","Not Allowed",441
+"442",442,"23 Jan 2021","Flexible","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",442
+"443",443,"Now","Flexible","N/A","N/A","N/A","Allowed","N/A","N/A","N/A",443
+"444",444,"Now","12 months","N/A","N/A","N/A","N/A","Not Allowed","No","N/A",444
+"445",445,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",445
+"446",446,"25 Dec 2020","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",446
+"447",447,"15 Dec 2020","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",446
+"448",448,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",448
+"449",449,"Now","12 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",449
+"450",450,"Now","12 months","N/A","N/A","N/A","Not Allowed","N/A","Yes","N/A",450
+"451",451,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",451
+"452",452,"N/A","12 months","N/A","N/A","N/A","N/A","N/A","Yes","N/A",419
+"453",453,"01 Jan 2021","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",453
+"454",454,"Now","12 months","N/A","N/A","Allowed","Allowed","N/A","N/A","N/A",301
+"455",455,"Now","12 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",455
+"456",456,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","N/A",456
+"457",457,"22 Dec 2020","Flexible","N/A","N/A","Allowed","Allowed","N/A","N/A","N/A",457
+"458",458,"Now","Flexible","N/A","N/A","Allowed","Allowed","Allowed","No","N/A",458
+"459",459,"Now","Flexible","N/A","N/A","N/A","Allowed","N/A","No","N/A",459
+"460",460,"Now","Flexible","N/A","N/A","Not Allowed","Allowed","N/A","No","N/A",459
+"461",461,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",461
+"462",462,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",462
+"463",463,"20 Dec 2020","Flexible","N/A","N/A","N/A","N/A","Allowed","N/A","Not Allowed",463
+"464",464,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",464
+"465",465,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",464
+"466",466,"N/A","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",466
+"467",467,"Now","12 months","N/A","N/A","N/A","Allowed","N/A","No","N/A",467
+"468",468,"Now","12 months","N/A","N/A","N/A","Allowed","N/A","No","N/A",468
+"469",469,"21 Dec 2020","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",469
+"470",470,"21 Dec 2020","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",469
+"471",471,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","No","Not Allowed",471
+"472",472,"Now","24 months","N/A","N/A","N/A","Allowed","N/A","No","N/A",471
+"473",473,"N/A","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",473
+"474",474,"Now","Flexible","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","Yes","Not Allowed",474
+"475",475,"01 Jan 2021","12 months","N/A","N/A","N/A","Light Cooking Allowed","N/A","N/A","N/A",474
+"476",476,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Allowed","Yes","Not Allowed",474
+"477",477,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","No","Not Allowed",477
+"478",478,"20 Mar 2021","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",478
+"479",479,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","Yes","Not Allowed",479
+"480",480,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","N/A",479
+"481",481,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",479
+"482",482,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",482
+"483",483,"Now","Flexible","N/A","N/A","N/A","Not Allowed","N/A","N/A","N/A",483
+"484",484,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",484
+"485",485,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","Yes","N/A",485
+"486",486,"N/A","12 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",486
+"487",487,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",486
+"488",488,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Allowed","No","Not Allowed",488
+"489",489,"N/A","12 months","N/A","N/A","N/A","Allowed","N/A","N/A","N/A",489
+"490",490,"02 Jan 2021","Flexible","N/A","N/A","Not Allowed","Allowed","N/A","No","N/A",489
+"491",491,"03 Jan 2021","Flexible","N/A","N/A","Not Allowed","Allowed","Not Allowed","No","Not Allowed",491
+"492",492,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",492
+"493",493,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","N/A","No","N/A",493
+"494",494,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",493
+"495",495,"Now","12 months","North","Fully Furnished","N/A","N/A","N/A","N/A","N/A",493
+"496",496,"01 Jan 2021","12 months","N/A","N/A","N/A","Light Cooking Allowed","N/A","Yes","N/A",301
+"497",497,"Now","Flexible","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","No","Not Allowed",497
+"498",498,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","No","Not Allowed",497
+"499",499,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","No","Not Allowed",497
+"500",500,"Now","12 months","N/A","N/A","Not Allowed","Not Allowed","Not Allowed","No","Not Allowed",497
+"501",501,"08 Jan 2021","12 months","N/A","N/A","Not Allowed","Allowed","Not Allowed","Yes","Not Allowed",501
+"502",502,"N/A","Flexible","N/A","N/A","N/A","Light Cooking Allowed","N/A","Yes","N/A",502
+"503",503,"N/A","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",503
+"504",504,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",504
+"505",505,"Now","12 months","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","No","Not Allowed",505
+"506",506,"N/A","Flexible","N/A","N/A","N/A","N/A","Not Allowed","Yes","Not Allowed",506
+"507",507,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",506
+"508",508,"Now","12 months","N/A","N/A","Not Allowed","Light Cooking Allowed","Not Allowed","Yes","Not Allowed",508
+"509",509,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",509
+"510",510,"Now","24 months","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",510
+"511",511,"Now","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",511
+"512",512,"N/A","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",511
+"513",513,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",513
+"514",514,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",514
+"515",515,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",515
+"516",516,"Now","Flexible","N/A","Partial","N/A","N/A","N/A","N/A","N/A",516
+"517",517,"15 Jan 2021","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",13
+"518",518,"05 Jan 2021","12 months","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",518
+"519",519,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",519
+"520",520,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",520
+"521",521,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",521
+"522",522,"Now","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",522
+"523",523,"Now","24 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",13
+"524",524,"Now","Flexible","N/A","Flexible","N/A","N/A","N/A","N/A","N/A",524
+"525",525,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",525
+"526",526,"01 Feb 2021","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",169
+"527",527,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",527
+"528",528,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",527
+"529",529,"Now","Flexible","North South","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",527
+"530",530,"Now","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",527
+"531",531,"15 Jan 2021","Flexible","North","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",120
+"532",532,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",83
+"533",533,"Now","12 months","North East","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",141
+"534",534,"N/A","Flexible","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",534
+"535",535,"10 Jan 2021","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",535
+"536",536,"Now","24 months","North","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",536
+"537",537,"Now","Flexible","North","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",536
+"538",538,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",538
+"539",539,"Now","12 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",538
+"540",540,"Now","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",540
+"541",541,"10 Jan 2021","12 months","South","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",208
+"542",542,"Now","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",542
+"543",543,"26 Dec 2020","24 months","North East","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",542
+"544",544,"Now","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",544
+"545",545,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",545
+"546",546,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",546
+"547",547,"N/A","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",547
+"548",548,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",547
+"549",549,"Now","12 months","South West","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",547
+"550",550,"Now","12 months","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",547
+"551",551,"Now","24 months","North East","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",547
+"552",552,"18 Jan 2021","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",263
+"553",553,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",553
+"554",554,"21 Dec 2020","Flexible","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",554
+"555",555,"01 Jan 2021","12 months","N/A","N/A","Not Allowed","N/A","N/A","N/A","N/A",96
+"556",556,"N/A","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",556
+"557",557,"Now","Flexible","N/A","N/A","Allowed","N/A","N/A","N/A","N/A",557
+"558",558,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",558
+"559",559,"01 Feb 2021","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",558
+"560",560,"19 Dec 2020","24 months","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",560
+"561",561,"Now","Flexible","N/A","Unfurnished","N/A","N/A","N/A","N/A","N/A",561
+"562",562,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",561
+"563",563,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",561
+"564",564,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",564
+"565",565,"N/A","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",564
+"566",566,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",564
+"567",567,"N/A","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",567
+"568",568,"Now","Flexible","North East","Unfurnished","N/A","N/A","N/A","N/A","N/A",567
+"569",569,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",569
+"570",570,"N/A","24 months","North","Partially Furnished","N/A","N/A","N/A","N/A","N/A",570
+"571",571,"Now","24 months","N/A","Partial","N/A","N/A","N/A","N/A","N/A",570
+"572",572,"Now","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",572
+"573",573,"Now","Flexible","N/A","Partial","N/A","N/A","N/A","N/A","N/A",572
+"574",574,"Now","Flexible","North","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",574
+"575",575,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",574
+"576",576,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",574
+"577",577,"Now","Flexible","South","Partial","N/A","N/A","N/A","N/A","N/A",574
+"578",578,"Now","Flexible","South","Partial","N/A","N/A","N/A","N/A","N/A",574
+"579",579,"Now","Flexible","South","Partially Furnished","N/A","N/A","N/A","N/A","N/A",574
+"580",580,"Now","Flexible","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",574
+"581",581,"N/A","24 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",574
+"582",582,"N/A","24 months","South","Flexible","N/A","N/A","N/A","N/A","N/A",574
+"583",583,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",574
+"584",584,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",574
+"585",585,"Now","Flexible","South West","Partially Furnished","N/A","N/A","N/A","N/A","N/A",574
+"586",586,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",574
+"587",587,"Now","Flexible","South","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",574
+"588",588,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",588
+"589",589,"15 Jan 2021","24 months","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",589
+"590",590,"Now","24 months","North South","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",590
+"591",591,"Now","24 months","N/A","Unfurnished","N/A","N/A","N/A","N/A","N/A",591
+"592",592,"01 Feb 2021","Flexible","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",592
+"593",593,"22 Jan 2021","24 months","North","N/A","Not Allowed","N/A","N/A","N/A","N/A",593
+"594",594,"Now","12 months","North","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",594
+"595",595,"Now","24 months","N/A","Fully","N/A","N/A","N/A","N/A","N/A",594
+"596",596,"Now","12 months","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",596
+"597",597,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",597
+"598",598,"01 Jan","24 months","N/A","Fully","N/A","N/A","N/A","N/A","N/A",598
+"599",599,"N/A","24 months","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",599
+"600",600,"Now","24 months","North South","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",600
+"601",601,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",601
+"602",602,"16 Dec 2020","24 months","South East","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",602
+"603",603,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",603
+"604",604,"15 Jan 2021","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",604
+"605",605,"Now","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",605
+"606",606,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",606
+"607",607,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",607
+"608",608,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",608
+"609",609,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",608
+"610",610,"Now","24 months","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",610
+"611",611,"N/A","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",611
+"612",612,"N/A","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",612
+"613",613,"16 Dec 2020","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",613
+"614",614,"08 Feb 2021","Flexible","North","N/A","Not Allowed","N/A","N/A","N/A","N/A",614
+"615",615,"28 Jan 2021","12 months","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",615
+"616",616,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",319
+"617",617,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",617
+"618",618,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",618
+"619",619,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",618
+"620",620,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",620
+"621",621,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",620
+"622",622,"Now","12 months","North East","Fully","N/A","N/A","N/A","N/A","N/A",622
+"623",623,"N/A","Flexible","North East","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",325
+"624",624,"N/A","24 months","South East","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",624
+"625",625,"Now","Flexible","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",624
+"626",626,"Now","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",624
+"627",627,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",624
+"628",628,"01 Jan 2021","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",628
+"629",629,"Now","Flexible","South","N/A","Allowed","N/A","N/A","N/A","N/A",629
+"630",630,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",629
+"631",631,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",631
+"632",632,"Now","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",301
+"633",633,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",633
+"634",634,"Now","24 months","N/A","Partial","N/A","N/A","N/A","N/A","N/A",633
+"635",635,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",633
+"636",636,"Now","Flexible","North East","Partial","N/A","N/A","N/A","N/A","N/A",633
+"637",637,"Now","Flexible","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",637
+"638",638,"Now","12 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",638
+"639",639,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",639
+"640",640,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",639
+"641",641,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",641
+"642",642,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",642
+"643",643,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",643
+"644",644,"Now","Flexible","N/A","Fully","N/A","N/A","N/A","N/A","N/A",643
+"645",645,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",643
+"646",646,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",643
+"647",647,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",643
+"648",648,"N/A","24 months","North South","Partially Furnished","N/A","N/A","N/A","N/A","N/A",648
+"649",649,"01 Jan 2021","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",649
+"650",650,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",649
+"651",651,"N/A","24 months","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",651
+"652",652,"Now","12 months","South West","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",651
+"653",653,"Now","24 months","North South","N/A","N/A","N/A","N/A","N/A","N/A",295
+"654",654,"N/A","Flexible","N/A","Flexible","N/A","N/A","N/A","N/A","N/A",654
+"655",655,"27 Dec 2020","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",655
+"656",656,"Now","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",655
+"657",657,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",657
+"658",658,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",657
+"659",659,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",659
+"660",660,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",659
+"661",661,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",661
+"662",662,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",662
+"663",663,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",663
+"664",664,"Now","Flexible","North","N/A","Not Allowed","N/A","N/A","N/A","N/A",663
+"665",665,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",665
+"666",666,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",666
+"667",667,"Now","24 months","North","Fully Furnished","N/A","N/A","N/A","N/A","N/A",667
+"668",668,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",668
+"669",669,"N/A","12 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",669
+"670",670,"Now","12 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",670
+"671",671,"Now","12 months","South","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",671
+"672",672,"Now","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",672
+"673",673,"Now","12 months","N/A","Partial","N/A","N/A","N/A","N/A","N/A",672
+"674",674,"N/A","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",672
+"675",675,"Now","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",672
+"676",676,"21 Jan 2021","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",672
+"677",677,"Now","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",672
+"678",678,"Now","24 months","N/A","Flexible","Allowed","N/A","N/A","N/A","N/A",672
+"679",679,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",345
+"680",680,"Now","12 months","South","Partial","N/A","N/A","N/A","N/A","N/A",345
+"681",681,"04 Jan 2021","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",681
+"682",682,"Now","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",682
+"683",683,"Now","Flexible","North East","Fully Furnished","N/A","N/A","N/A","N/A","N/A",683
+"684",684,"Now","24 months","North West","Fully","N/A","N/A","N/A","N/A","N/A",684
+"685",685,"Now","Flexible","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",685
+"686",686,"Now","Flexible","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",686
+"687",687,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",687
+"688",688,"N/A","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",688
+"689",689,"N/A","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",688
+"690",690,"Now","24 months","South","N/A","Allowed","N/A","N/A","N/A","N/A",690
+"691",691,"N/A","Flexible","South West","N/A","N/A","N/A","N/A","N/A","N/A",691
+"692",692,"30 Dec 2020","Flexible","N/A","N/A","Allowed","N/A","N/A","N/A","N/A",692
+"693",693,"Now","Flexible","North East","Fully","N/A","N/A","N/A","N/A","N/A",692
+"694",694,"Now","Flexible","N/A","Fully","N/A","N/A","N/A","N/A","N/A",692
+"695",695,"N/A","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",692
+"696",696,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",692
+"697",697,"Now","Flexible","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",697
+"698",698,"Now","12 months","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",698
+"699",699,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",699
+"700",700,"02 Jan 2021","24 months","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",700
+"701",701,"N/A","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",701
+"702",702,"Now","24 months","East","Fully Furnished","N/A","N/A","N/A","N/A","N/A",301
+"703",703,"Now","24 months","South East","N/A","Not Allowed","N/A","N/A","N/A","N/A",703
+"704",704,"Now","6 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",704
+"705",705,"Now","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",705
+"706",706,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",706
+"707",707,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",372
+"708",708,"Now","24 months","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",708
+"709",709,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",708
+"710",710,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",710
+"711",711,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",711
+"712",712,"08 Feb 2021","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",712
+"713",713,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",713
+"714",714,"Now","24 months","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",714
+"715",715,"Now","24 months","South","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",715
+"716",716,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",715
+"717",717,"Now","24 months","North South","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",715
+"718",718,"Now","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",718
+"719",719,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",718
+"720",720,"N/A","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",718
+"721",721,"N/A","24 months","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",718
+"722",722,"Now","Flexible","N/A","N/A","Allowed","N/A","N/A","N/A","N/A",722
+"723",723,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",722
+"724",724,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",724
+"725",725,"Now","Flexible","South East","Unfurnished","N/A","N/A","N/A","N/A","N/A",301
+"726",726,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",301
+"727",727,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",727
+"728",728,"Now","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",728
+"729",729,"N/A","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",728
+"730",730,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",728
+"731",731,"Now","Flexible","N/A","N/A","Allowed","N/A","N/A","N/A","N/A",728
+"732",732,"Now","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",728
+"733",733,"N/A","24 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",733
+"734",734,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",734
+"735",735,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",735
+"736",736,"Now","24 months","N/A","Unfurnished","N/A","N/A","N/A","N/A","N/A",735
+"737",737,"11 Jan 2021","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",737
+"738",738,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",738
+"739",739,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",738
+"740",740,"Now","Flexible","South","Fully","N/A","N/A","N/A","N/A","N/A",738
+"741",741,"01 Jan 2021","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",741
+"742",742,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",742
+"743",743,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",743
+"744",744,"Now","Flexible","N/A","Fully","N/A","N/A","N/A","N/A","N/A",744
+"745",745,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",744
+"746",746,"Now","Flexible","North East","Fully Furnished","N/A","N/A","N/A","N/A","N/A",744
+"747",747,"Now","Flexible","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",747
+"748",748,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",747
+"749",749,"N/A","24 months","South","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",749
+"750",750,"24 Jan","Flexible","North East","Partial","N/A","N/A","N/A","N/A","N/A",749
+"751",751,"Now","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",749
+"752",752,"Now","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",749
+"753",753,"Now","12 months","North West","Partially Furnished","N/A","N/A","N/A","N/A","N/A",753
+"754",754,"Now","12 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",753
+"755",755,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",753
+"756",756,"28 Feb 2021","24 months","South","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",753
+"757",757,"Now","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",757
+"758",758,"N/A","12 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",757
+"759",759,"Now","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",757
+"760",760,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",760
+"761",761,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",761
+"762",762,"N/A","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",390
+"763",763,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",763
+"764",764,"N/A","Flexible","North South","Partially Furnished","N/A","N/A","N/A","N/A","N/A",763
+"765",765,"01 Feb 2021","24 months","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",765
+"766",766,"Now","24 months","South East","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",766
+"767",767,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",301
+"768",768,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",768
+"769",769,"Now","24 months","N/A","Partial","N/A","N/A","N/A","N/A","N/A",768
+"770",770,"Now","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",770
+"771",771,"N/A","12 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",770
+"772",772,"Now","Flexible","West","Partially Furnished","N/A","N/A","N/A","N/A","N/A",772
+"773",773,"Now","Flexible","N/A","Fully","N/A","N/A","N/A","N/A","N/A",772
+"774",774,"Now","24 months","North West","Unfurnished","Not Allowed","N/A","N/A","N/A","N/A",301
+"775",775,"20 Dec","12 months","N/A","Fully","N/A","N/A","N/A","N/A","N/A",775
+"776",776,"Now","Flexible","North South","Fully Furnished","N/A","N/A","N/A","N/A","N/A",775
+"777",777,"14 Dec 2020","Flexible","South East","Flexible","Not Allowed","N/A","N/A","N/A","N/A",777
+"778",778,"16 Mar 2021","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",778
+"779",779,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",779
+"780",780,"Now","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",301
+"781",781,"Now","Flexible","North East","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",781
+"782",782,"01 Jan 2021","Flexible","North South","Fully Furnished","N/A","N/A","N/A","N/A","N/A",782
+"783",783,"N/A","12 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",783
+"784",784,"Now","Flexible","N/A","Partial","N/A","N/A","N/A","N/A","N/A",784
+"785",785,"Now","24 months","North South","N/A","Allowed","N/A","N/A","N/A","N/A",301
+"786",786,"Now","Flexible","North South","Flexible","N/A","N/A","N/A","N/A","N/A",786
+"787",787,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",787
+"788",788,"23 Dec 2020","Flexible","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",787
+"789",789,"N/A","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",789
+"790",790,"Now","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",789
+"791",791,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",789
+"792",792,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",789
+"793",793,"Now","24 months","North","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",793
+"794",794,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",794
+"795",795,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",795
+"796",796,"Now","12 months","N/A","Partial","N/A","N/A","N/A","N/A","N/A",795
+"797",797,"Now","Flexible","N/A","Partial","N/A","N/A","N/A","N/A","N/A",795
+"798",798,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",798
+"799",799,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",798
+"800",800,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",800
+"801",801,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",800
+"802",802,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",802
+"803",803,"13 Dec 2020","12 months","South West","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",803
+"804",804,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",804
+"805",805,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",805
+"806",806,"19 Jan 2021","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",805
+"807",807,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",404
+"808",808,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",404
+"809",809,"N/A","Flexible","N/A","Flexible","N/A","N/A","N/A","N/A","N/A",404
+"810",810,"Now","Flexible","South West","Partially Furnished","N/A","N/A","N/A","N/A","N/A",404
+"811",811,"Now","Flexible","North West","Fully Furnished","N/A","N/A","N/A","N/A","N/A",404
+"812",812,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",812
+"813",813,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",812
+"814",814,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",812
+"815",815,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",812
+"816",816,"N/A","12 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",816
+"817",817,"Now","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",816
+"818",818,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",816
+"819",819,"Now","Flexible","N/A","Partial","N/A","N/A","N/A","N/A","N/A",816
+"820",820,"Now","Flexible","South","Partial","N/A","N/A","N/A","N/A","N/A",820
+"821",821,"Now","12 months","North South","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",821
+"822",822,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",822
+"823",823,"Now","24 months","South","Fully","N/A","N/A","N/A","N/A","N/A",823
+"824",824,"N/A","Flexible","South","Unfurnished","N/A","N/A","N/A","N/A","N/A",824
+"825",825,"N/A","24 months","South East","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",420
+"826",826,"15 Dec 2020","Flexible","North East","Flexible","N/A","N/A","N/A","N/A","N/A",420
+"827",827,"Now","Flexible","South","Unfurnished","N/A","N/A","N/A","N/A","N/A",827
+"828",828,"N/A","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",828
+"829",829,"N/A","Flexible","North East","Partially Furnished","N/A","N/A","N/A","N/A","N/A",829
+"830",830,"Now","Flexible","North South","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",830
+"831",831,"04 Jan","24 months","North South","Partial","N/A","N/A","N/A","N/A","N/A",831
+"832",832,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",831
+"833",833,"06 Jan 2021","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",833
+"834",834,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",834
+"835",835,"Now","24 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",835
+"836",836,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",835
+"837",837,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",835
+"838",838,"Now","Flexible","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",838
+"839",839,"N/A","Flexible","North West","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",839
+"840",840,"01 Mar 2021","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",839
+"841",841,"Now","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",839
+"842",842,"Now","12 months","N/A","N/A","Not Allowed","N/A","N/A","N/A","N/A",839
+"843",843,"01 Mar 2021","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",839
+"844",844,"N/A","24 months","N/A","N/A","Allowed","N/A","N/A","N/A","N/A",839
+"845",845,"Now","Flexible","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",845
+"846",846,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",301
+"847",847,"01 Jan 2021","24 months","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",847
+"848",848,"01 Feb 2021","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",847
+"849",849,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",849
+"850",850,"Now","Flexible","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",850
+"851",851,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",850
+"852",852,"Now","Flexible","North","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",852
+"853",853,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",852
+"854",854,"15 Dec 2020","24 months","South","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",852
+"855",855,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",855
+"856",856,"Now","Flexible","N/A","Flexible","Not Allowed","N/A","N/A","N/A","N/A",856
+"857",857,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",857
+"858",858,"Now","Flexible","South West","Partially Furnished","N/A","N/A","N/A","N/A","N/A",858
+"859",859,"N/A","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",859
+"860",860,"15 Dec 2020","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",860
+"861",861,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",860
+"862",862,"Now","Flexible","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",862
+"863",863,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",863
+"864",864,"N/A","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",863
+"865",865,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",865
+"866",866,"Now","12 months","South","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",866
+"867",867,"01 Jan 2021","24 months","N/A","Unfurnished","Not Allowed","N/A","N/A","N/A","N/A",867
+"868",868,"N/A","12 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",868
+"869",869,"Now","Flexible","N/A","Partial","N/A","N/A","N/A","N/A","N/A",868
+"870",870,"Now","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",868
+"871",871,"Now","Flexible","South","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",868
+"872",872,"Now","Flexible","N/A","Unfurnished","N/A","N/A","N/A","N/A","N/A",868
+"873",873,"Now","24 months","South West","Fully Furnished","N/A","N/A","N/A","N/A","N/A",873
+"874",874,"N/A","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",873
+"875",875,"Now","24 months","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",875
+"876",876,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",875
+"877",877,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",875
+"878",878,"Now","Flexible","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",878
+"879",879,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",878
+"880",880,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",878
+"881",881,"Now","12 months","North East","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",443
+"882",882,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",443
+"883",883,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",443
+"884",884,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",884
+"885",885,"01 Feb","Flexible","N/A","Fully","N/A","N/A","N/A","N/A","N/A",884
+"886",886,"14 Jan 2021","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",886
+"887",887,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",887
+"888",888,"Now","Flexible","North South","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",887
+"889",889,"15 Dec 2020","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",889
+"890",890,"N/A","24 months","N/A","N/A","Allowed","N/A","N/A","N/A","N/A",890
+"891",891,"N/A","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",890
+"892",892,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",301
+"893",893,"Now","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",893
+"894",894,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",894
+"895",895,"N/A","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",894
+"896",896,"N/A","24 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",894
+"897",897,"Now","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",897
+"898",898,"N/A","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",898
+"899",899,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",898
+"900",900,"01 Jan 2021","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",900
+"901",901,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",445
+"902",902,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",445
+"903",903,"27 Dec 2020","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",445
+"904",904,"05 Jan","Flexible","N/A","Fully","N/A","N/A","N/A","N/A","N/A",904
+"905",905,"11 Jan 2021","24 months","North","Fully Furnished","N/A","N/A","N/A","N/A","N/A",905
+"906",906,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",906
+"907",907,"Now","24 months","N/A","Unfurnished","N/A","N/A","N/A","N/A","N/A",907
+"908",908,"01 Jan 2021","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",908
+"909",909,"N/A","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",909
+"910",910,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",910
+"911",911,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",911
+"912",912,"Now","Flexible","North South","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",911
+"913",913,"Now","12 months","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",911
+"914",914,"Now","Flexible","South East","Partially Furnished","N/A","N/A","N/A","N/A","N/A",455
+"915",915,"Now","24 months","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",455
+"916",916,"01 Feb","Flexible","N/A","Fully","N/A","N/A","N/A","N/A","N/A",456
+"917",917,"Now","24 months","South East","Partial","N/A","N/A","N/A","N/A","N/A",917
+"918",918,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",918
+"919",919,"31 Dec 2020","24 months","North East","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",458
+"920",920,"21 Dec","Flexible","N/A","Partial","N/A","N/A","N/A","N/A","N/A",458
+"921",921,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",921
+"922",922,"N/A","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",922
+"923",923,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",922
+"924",924,"Now","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",922
+"925",925,"31 Jan 2021","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",925
+"926",926,"Now","Flexible","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",926
+"927",927,"Now","24 months","South","Partially Furnished","N/A","N/A","N/A","N/A","N/A",926
+"928",928,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",926
+"929",929,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",459
+"930",930,"Now","24 months","North","Fully Furnished","N/A","N/A","N/A","N/A","N/A",930
+"931",931,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",931
+"932",932,"N/A","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",932
+"933",933,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",932
+"934",934,"Now","24 months","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",932
+"935",935,"Now","24 months","South West","Fully Furnished","N/A","N/A","N/A","N/A","N/A",932
+"936",936,"Now","24 months","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",932
+"937",937,"Now","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",932
+"938",938,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",932
+"939",939,"Now","12 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",932
+"940",940,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",932
+"941",941,"31 Dec 2020","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",941
+"942",942,"Now","Flexible","South","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",941
+"943",943,"Now","Flexible","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",943
+"944",944,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",944
+"945",945,"15 Dec 2020","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",945
+"946",946,"N/A","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",946
+"947",947,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",947
+"948",948,"01 Jan","24 months","N/A","Partial","N/A","N/A","N/A","N/A","N/A",948
+"949",949,"N/A","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",948
+"950",950,"N/A","Flexible","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",950
+"951",951,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",951
+"952",952,"N/A","12 months","N/A","Flexible","N/A","N/A","N/A","N/A","N/A",952
+"953",953,"26 Jan 2021","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",463
+"954",954,"31 Jan 2021","24 months","North East","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",954
+"955",955,"Now","Flexible","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",955
+"956",956,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",956
+"957",957,"Now","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",957
+"958",958,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",958
+"959",959,"Now","Flexible","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",959
+"960",960,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",960
+"961",961,"Now","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",960
+"962",962,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",960
+"963",963,"N/A","24 months","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",960
+"964",964,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",960
+"965",965,"N/A","Flexible","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",965
+"966",966,"Now","12 months","N/A","N/A","Not Allowed","N/A","N/A","N/A","N/A",966
+"967",967,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",966
+"968",968,"N/A","24 months","North West","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",968
+"969",969,"N/A","24 months","North","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",968
+"970",970,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",471
+"971",971,"N/A","6 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",471
+"972",972,"Now","24 months","East","N/A","N/A","N/A","N/A","N/A","N/A",471
+"973",973,"04 Jan 2021","24 months","South","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",471
+"974",974,"N/A","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",471
+"975",975,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",471
+"976",976,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",471
+"977",977,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",471
+"978",978,"16 Dec 2020","Flexible","South East","Flexible","Allowed","N/A","N/A","N/A","N/A",471
+"979",979,"20 Dec 2020","Flexible","East","Fully Furnished","N/A","N/A","N/A","N/A","N/A",471
+"980",980,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",980
+"981",981,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",981
+"982",982,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",981
+"983",983,"N/A","24 months","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",981
+"984",984,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",984
+"985",985,"N/A","24 months","N/A","Partially Furnished","Not Allowed","N/A","N/A","N/A","N/A",985
+"986",986,"Now","24 months","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",986
+"987",987,"N/A","Flexible","N/A","N/A","Allowed","N/A","N/A","N/A","N/A",986
+"988",988,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",986
+"989",989,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",474
+"990",990,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",990
+"991",991,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",991
+"992",992,"01 Feb 2021","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",992
+"993",993,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",301
+"994",994,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",757
+"995",995,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",995
+"996",996,"Now","24 months","North","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",996
+"997",997,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",997
+"998",998,"16 Dec 2020","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",998
+"999",999,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",999
+"1000",1000,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1000
+"1001",1001,"Now","Flexible","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",1001
+"1002",1002,"Now","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1001
+"1003",1003,"Now","24 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",1001
+"1004",1004,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1004
+"1005",1005,"Now","Flexible","South","Fully Furnished","N/A","N/A","N/A","N/A","N/A",1005
+"1006",1006,"N/A","24 months","N/A","Fully Furnished","Allowed","N/A","N/A","N/A","N/A",1006
+"1007",1007,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1006
+"1008",1008,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",1006
+"1009",1009,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1009
+"1010",1010,"Now","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",1009
+"1011",1011,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",1011
+"1012",1012,"16 Jan 2021","12 months","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",1012
+"1013",1013,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",1012
+"1014",1014,"18 Jan 2021","24 months","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",1014
+"1015",1015,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1015
+"1016",1016,"N/A","24 months","N/A","N/A","N/A","N/A","N/A","N/A","N/A",437
+"1017",1017,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1017
+"1018",1018,"04 Jan","36 months","N/A","Partial","N/A","N/A","N/A","N/A","N/A",1018
+"1019",1019,"Now","12 months","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",1019
+"1020",1020,"N/A","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",1020
+"1021",1021,"Now","Flexible","West","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1021
+"1022",1022,"Now","Flexible","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1021
+"1023",1023,"N/A","24 months","South West","Fully Furnished","N/A","N/A","N/A","N/A","N/A",1021
+"1024",1024,"Now","24 months","N/A","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",1021
+"1025",1025,"Now","Flexible","N/A","N/A","Allowed","N/A","N/A","N/A","N/A",1021
+"1026",1026,"Now","Flexible","West","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1021
+"1027",1027,"N/A","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",1027
+"1028",1028,"Now","Flexible","North South","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",1028
+"1029",1029,"N/A","24 months","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",504
+"1030",1030,"24 Dec 2020","Flexible","N/A","Partially Furnished","Allowed","N/A","N/A","N/A","N/A",613
+"1031",1031,"Now","24 months","N/A","Partial","N/A","N/A","N/A","N/A","N/A",613
+"1032",1032,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1032
+"1033",1033,"Now","Flexible","North East","Fully Furnished","Not Allowed","N/A","N/A","N/A","N/A",1032
+"1034",1034,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1034
+"1035",1035,"Now","Flexible","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",1027
+"1036",1036,"Now","Flexible","N/A","N/A","N/A","Light Cooking Allowed","Not Allowed","N/A","Not Allowed",1036
+"1037",1037,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1037
+"1038",1038,"Now","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",127
+"1039",1039,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",38
+"1040",1040,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1040
+"1041",1041,"Now","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",514
+"1042",1042,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",54
+"1043",1043,"Now","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",24
+"1044",1044,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",515
+"1045",1045,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1045
+"1046",1046,"N/A","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",1040
+"1047",1047,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1047
+"1048",1048,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",54
+"1049",1049,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1049
+"1050",1050,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",54
+"1051",1051,"N/A","Flexible","North West","N/A","N/A","N/A","N/A","N/A","N/A",51
+"1052",1052,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1052
+"1053",1053,"Now","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1053
+"1054",1054,"Now","N/A","North East","Unfurnished","N/A","N/A","N/A","N/A","N/A",1054
+"1055",1055,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1
+"1056",1056,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1
+"1057",1057,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1
+"1058",1058,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1058
+"1059",1059,"15 Mar 2021","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1059
+"1060",1060,"Now","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",103
+"1061",1061,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",96
+"1062",1062,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",97
+"1063",1063,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1063
+"1064",1064,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1064
+"1065",1065,"Now","N/A","North","N/A","N/A","N/A","N/A","N/A","N/A",527
+"1066",1066,"N/A","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",1066
+"1067",1067,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1067
+"1068",1068,"N/A","N/A","South West","N/A","N/A","N/A","N/A","N/A","N/A",1068
+"1069",1069,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1069
+"1070",1070,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1070
+"1071",1071,"N/A","Flexible","West","N/A","N/A","N/A","N/A","N/A","N/A",1071
+"1072",1072,"N/A","N/A","North East","N/A","N/A","N/A","N/A","N/A","N/A",120
+"1073",1073,"Now","N/A","North","N/A","N/A","N/A","N/A","N/A","N/A",1073
+"1074",1074,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",141
+"1075",1075,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",135
+"1076",1076,"N/A","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",139
+"1077",1077,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1077
+"1078",1078,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1077
+"1079",1079,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1077
+"1080",1080,"N/A","N/A","East","N/A","N/A","N/A","N/A","N/A","N/A",1080
+"1081",1081,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1081
+"1082",1082,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1082
+"1083",1083,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1083
+"1084",1084,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1084
+"1085",1085,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1085
+"1086",1086,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1086
+"1087",1087,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1087
+"1088",1088,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1088
+"1089",1089,"03 Mar 2021","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1089
+"1090",1090,"N/A","N/A","North","N/A","N/A","N/A","N/A","N/A","N/A",1090
+"1091",1091,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1091
+"1092",1092,"N/A","N/A","North South","N/A","N/A","N/A","N/A","N/A","N/A",1092
+"1093",1093,"Now","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",1093
+"1094",1094,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1093
+"1095",1095,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1095
+"1096",1096,"Now","N/A","South","Fully Furnished","N/A","N/A","N/A","N/A","N/A",1096
+"1097",1097,"21 Dec 2020","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",188
+"1098",1098,"01 Feb 2021","N/A","North South","N/A","N/A","N/A","N/A","N/A","N/A",1098
+"1099",1099,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1099
+"1100",1100,"Now","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",197
+"1101",1101,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",191
+"1102",1102,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",196
+"1103",1103,"N/A","Flexible","West","N/A","N/A","N/A","N/A","N/A","N/A",1103
+"1104",1104,"Now","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",1104
+"1105",1105,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1104
+"1106",1106,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1106
+"1107",1107,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1107
+"1108",1108,"N/A","Flexible","North West","N/A","N/A","N/A","N/A","N/A","N/A",50
+"1109",1109,"Now","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",288
+"1110",1110,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1110
+"1111",1111,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",234
+"1112",1112,"Now","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1112
+"1113",1113,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1113
+"1114",1114,"Now","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",1114
+"1115",1115,"15 Dec","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",1115
+"1116",1116,"Now","N/A","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",261
+"1117",1117,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1117
+"1118",1118,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",553
+"1119",1119,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",554
+"1120",1120,"N/A","Flexible","North West","N/A","N/A","N/A","N/A","N/A","N/A",554
+"1121",1121,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",554
+"1122",1122,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",554
+"1123",1123,"Now","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",1123
+"1124",1124,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1123
+"1125",1125,"Now","N/A","South","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1123
+"1126",1126,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1123
+"1127",1127,"N/A","N/A","North West","N/A","N/A","N/A","N/A","N/A","N/A",1127
+"1128",1128,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",96
+"1129",1129,"Now","N/A","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1129
+"1130",1130,"25 Dec 2020","N/A","South East","N/A","N/A","N/A","N/A","N/A","N/A",96
+"1131",1131,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1131
+"1132",1132,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1132
+"1133",1133,"N/A","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",282
+"1134",1134,"Now","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",1134
+"1135",1135,"Now","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",287
+"1136",1136,"Now","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",287
+"1137",1137,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1137
+"1138",1138,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",287
+"1139",1139,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",287
+"1140",1140,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",293
+"1141",1141,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",293
+"1142",1142,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1142
+"1143",1143,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",322
+"1144",1144,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1144
+"1145",1145,"Now","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",1145
+"1146",1146,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1146
+"1147",1147,"Now","Flexible","North West","N/A","N/A","N/A","N/A","N/A","N/A",1147
+"1148",1148,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1148
+"1149",1149,"Now","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1148
+"1150",1150,"Now","N/A","North","N/A","N/A","N/A","N/A","N/A","N/A",1148
+"1151",1151,"Now","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1148
+"1152",1152,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1148
+"1153",1153,"Now","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1148
+"1154",1154,"Now","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1148
+"1155",1155,"Now","Flexible","North West","N/A","N/A","N/A","N/A","N/A","N/A",301
+"1156",1156,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1156
+"1157",1157,"Now","Flexible","West","N/A","N/A","N/A","N/A","N/A","N/A",1157
+"1158",1158,"N/A","Flexible","South West","N/A","N/A","N/A","N/A","N/A","N/A",1158
+"1159",1159,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",301
+"1160",1160,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",598
+"1161",1161,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1161
+"1162",1162,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1162
+"1163",1163,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1162
+"1164",1164,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",600
+"1165",1165,"N/A","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",1165
+"1166",1166,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1166
+"1167",1167,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",603
+"1168",1168,"Now","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",608
+"1169",1169,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",608
+"1170",1170,"Now","N/A","North South","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1170
+"1171",1171,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1171
+"1172",1172,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1172
+"1173",1173,"Now","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",315
+"1174",1174,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1174
+"1175",1175,"04 Jun 2023","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1175
+"1176",1176,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",618
+"1177",1177,"Now","Flexible","North West","N/A","N/A","N/A","N/A","N/A","N/A",1177
+"1178",1178,"N/A","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",1178
+"1179",1179,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1179
+"1180",1180,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",624
+"1181",1181,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",624
+"1182",1182,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",624
+"1183",1183,"Now","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",624
+"1184",1184,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1184
+"1185",1185,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1184
+"1186",1186,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1184
+"1187",1187,"Now","N/A","North South","Unfurnished","N/A","N/A","N/A","N/A","N/A",1184
+"1188",1188,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1188
+"1189",1189,"N/A","N/A","North East","N/A","N/A","N/A","N/A","N/A","N/A",1188
+"1190",1190,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1190
+"1191",1191,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1190
+"1192",1192,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1192
+"1193",1193,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1193
+"1194",1194,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1193
+"1195",1195,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1193
+"1196",1196,"N/A","N/A","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",638
+"1197",1197,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",639
+"1198",1198,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",639
+"1199",1199,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",639
+"1200",1200,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",639
+"1201",1201,"N/A","N/A","North East","N/A","N/A","N/A","N/A","N/A","N/A",1201
+"1202",1202,"Now","N/A","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",648
+"1203",1203,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1203
+"1204",1204,"Now","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",1204
+"1205",1205,"10 Jan","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",649
+"1206",1206,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",335
+"1207",1207,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",335
+"1208",1208,"Now","N/A","South East","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1208
+"1209",1209,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1209
+"1210",1210,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",337
+"1211",1211,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1211
+"1212",1212,"N/A","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",339
+"1213",1213,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",339
+"1214",1214,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",659
+"1215",1215,"Now","Flexible","West","N/A","N/A","N/A","N/A","N/A","N/A",659
+"1216",1216,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",301
+"1217",1217,"N/A","Flexible","North West","N/A","N/A","N/A","N/A","N/A","N/A",367
+"1218",1218,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",367
+"1219",1219,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",367
+"1220",1220,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1220
+"1221",1221,"Now","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",1221
+"1222",1222,"Now","N/A","South East","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1222
+"1223",1223,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1223
+"1224",1224,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",343
+"1225",1225,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1225
+"1226",1226,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1226
+"1227",1227,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1226
+"1228",1228,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",663
+"1229",1229,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",663
+"1230",1230,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",663
+"1231",1231,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1231
+"1232",1232,"N/A","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",1232
+"1233",1233,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1233
+"1234",1234,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",301
+"1235",1235,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",301
+"1236",1236,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",681
+"1237",1237,"21 Sep","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",1237
+"1238",1238,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",684
+"1239",1239,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1239
+"1240",1240,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1239
+"1241",1241,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1239
+"1242",1242,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1239
+"1243",1243,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1243
+"1244",1244,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1244
+"1245",1245,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",1245
+"1246",1246,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1246
+"1247",1247,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",354
+"1248",1248,"Now","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",692
+"1249",1249,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",692
+"1250",1250,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1250
+"1251",1251,"21 Jun","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",699
+"1252",1252,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",700
+"1253",1253,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1253
+"1254",1254,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1253
+"1255",1255,"01 Oct 2021","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1253
+"1256",1256,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1253
+"1257",1257,"09 Jan 2023","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1253
+"1258",1258,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",301
+"1259",1259,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1259
+"1260",1260,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",301
+"1261",1261,"Now","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",1261
+"1262",1262,"Now","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",1262
+"1263",1263,"N/A","N/A","N/A","Unfurnished","N/A","N/A","N/A","N/A","N/A",1263
+"1264",1264,"Now","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",1264
+"1265",1265,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1265
+"1266",1266,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1266
+"1267",1267,"Now","Flexible","South West","N/A","N/A","N/A","N/A","N/A","N/A",1266
+"1268",1268,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1268
+"1269",1269,"N/A","Flexible","South West","N/A","N/A","N/A","N/A","N/A","N/A",1268
+"1270",1270,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1270
+"1271",1271,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1271
+"1272",1272,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1271
+"1273",1273,"N/A","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",1273
+"1274",1274,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1273
+"1275",1275,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1275
+"1276",1276,"Now","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",301
+"1277",1277,"N/A","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",1277
+"1278",1278,"Now","Flexible","North West","N/A","N/A","N/A","N/A","N/A","N/A",382
+"1279",1279,"Now","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",733
+"1280",1280,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1280
+"1281",1281,"31 Dec 2020","N/A","North West","N/A","N/A","N/A","N/A","N/A","N/A",301
+"1282",1282,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1282
+"1283",1283,"27 Dec","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",738
+"1284",1284,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",741
+"1285",1285,"30 May","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1285
+"1286",1286,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",743
+"1287",1287,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",743
+"1288",1288,"N/A","N/A","N/A","Unfurnished","N/A","N/A","N/A","N/A","N/A",743
+"1289",1289,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",743
+"1290",1290,"Now","N/A","North","N/A","N/A","N/A","N/A","N/A","N/A",1290
+"1291",1291,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1290
+"1292",1292,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1292
+"1293",1293,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",753
+"1294",1294,"Now","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",753
+"1295",1295,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",753
+"1296",1296,"01 Dec 2021","N/A","North West","N/A","N/A","N/A","N/A","N/A","N/A",1296
+"1297",1297,"01 Dec 2021","N/A","North West","N/A","N/A","N/A","N/A","N/A","N/A",1296
+"1298",1298,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1298
+"1299",1299,"31 Dec 2024","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1298
+"1300",1300,"N/A","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",1300
+"1301",1301,"N/A","N/A","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1301
+"1302",1302,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1301
+"1303",1303,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1303
+"1304",1304,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1304
+"1305",1305,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1304
+"1306",1306,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1306
+"1307",1307,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",766
+"1308",1308,"Now","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",1308
+"1309",1309,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",772
+"1310",1310,"N/A","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",1310
+"1311",1311,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1311
+"1312",1312,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",775
+"1313",1313,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1313
+"1314",1314,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1314
+"1315",1315,"15 Dec","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1315
+"1316",1316,"N/A","N/A","North East","N/A","N/A","N/A","N/A","N/A","N/A",1316
+"1317",1317,"N/A","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1317
+"1318",1318,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1317
+"1319",1319,"N/A","N/A","North","N/A","N/A","N/A","N/A","N/A","N/A",1317
+"1320",1320,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",782
+"1321",1321,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",392
+"1322",1322,"N/A","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",783
+"1323",1323,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",783
+"1324",1324,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",783
+"1325",1325,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",784
+"1326",1326,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1326
+"1327",1327,"Now","N/A","North South","N/A","N/A","N/A","N/A","N/A","N/A",1327
+"1328",1328,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1328
+"1329",1329,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1328
+"1330",1330,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1328
+"1331",1331,"N/A","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",1331
+"1332",1332,"Now","N/A","North South","N/A","N/A","N/A","N/A","N/A","N/A",367
+"1333",1333,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1333
+"1334",1334,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1333
+"1335",1335,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1333
+"1336",1336,"N/A","Flexible","North West","N/A","N/A","N/A","N/A","N/A","N/A",1336
+"1337",1337,"N/A","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",1337
+"1338",1338,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1338
+"1339",1339,"N/A","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",1338
+"1340",1340,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1340
+"1341",1341,"Now","N/A","North East","N/A","N/A","N/A","N/A","N/A","N/A",1341
+"1342",1342,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1342
+"1343",1343,"N/A","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",800
+"1344",1344,"04 Jun 2023","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1344
+"1345",1345,"04 Jun 2023","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1344
+"1346",1346,"04 Jun 2023","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1344
+"1347",1347,"04 Jun 2023","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1344
+"1348",1348,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1348
+"1349",1349,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1348
+"1350",1350,"Now","N/A","North South","Fully Furnished","N/A","N/A","N/A","N/A","N/A",1348
+"1351",1351,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1351
+"1352",1352,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1351
+"1353",1353,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1351
+"1354",1354,"Now","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",404
+"1355",1355,"09 Mar","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1355
+"1356",1356,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1356
+"1357",1357,"Now","Flexible","West","N/A","N/A","N/A","N/A","N/A","N/A",1357
+"1358",1358,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1358
+"1359",1359,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",413
+"1360",1360,"Now","N/A","North","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1360
+"1361",1361,"Now","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",1361
+"1362",1362,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1362
+"1363",1363,"N/A","N/A","North East","N/A","N/A","N/A","N/A","N/A","N/A",1363
+"1364",1364,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",827
+"1365",1365,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",827
+"1366",1366,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",827
+"1367",1367,"N/A","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",829
+"1368",1368,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",831
+"1369",1369,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",831
+"1370",1370,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",834
+"1371",1371,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1371
+"1372",1372,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1372
+"1373",1373,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1372
+"1374",1374,"Now","N/A","N/A","Unfurnished","N/A","N/A","N/A","N/A","N/A",1374
+"1375",1375,"Now","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",849
+"1376",1376,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",849
+"1377",1377,"N/A","N/A","North West","N/A","N/A","N/A","N/A","N/A","N/A",1377
+"1378",1378,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1378
+"1379",1379,"Now","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1378
+"1380",1380,"Now","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1378
+"1381",1381,"Now","N/A","North","N/A","N/A","N/A","N/A","N/A","N/A",1378
+"1382",1382,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1382
+"1383",1383,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1383
+"1384",1384,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1383
+"1385",1385,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1383
+"1386",1386,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1386
+"1387",1387,"Now","N/A","North South","N/A","N/A","N/A","N/A","N/A","N/A",1386
+"1388",1388,"Now","N/A","North South","N/A","N/A","N/A","N/A","N/A","N/A",1386
+"1389",1389,"Now","N/A","North South","Unfurnished","N/A","N/A","N/A","N/A","N/A",1386
+"1390",1390,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1386
+"1391",1391,"Now","N/A","North South","Unfurnished","N/A","N/A","N/A","N/A","N/A",1386
+"1392",1392,"Now","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",431
+"1393",1393,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1393
+"1394",1394,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1394
+"1395",1395,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1395
+"1396",1396,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1395
+"1397",1397,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1395
+"1398",1398,"Now","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",1398
+"1399",1399,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1399
+"1400",1400,"Now","N/A","South East","N/A","N/A","N/A","N/A","N/A","N/A",1400
+"1401",1401,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",866
+"1402",1402,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",866
+"1403",1403,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",866
+"1404",1404,"Now","Flexible","North West","N/A","N/A","N/A","N/A","N/A","N/A",1404
+"1405",1405,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1405
+"1406",1406,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1406
+"1407",1407,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1406
+"1408",1408,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1408
+"1409",1409,"01 Apr","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",1409
+"1410",1410,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1410
+"1411",1411,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1411
+"1412",1412,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1412
+"1413",1413,"Now","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",887
+"1414",1414,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1414
+"1415",1415,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1415
+"1416",1416,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",898
+"1417",1417,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1417
+"1418",1418,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1417
+"1419",1419,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1417
+"1420",1420,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1420
+"1421",1421,"N/A","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",1421
+"1422",1422,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1422
+"1423",1423,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",904
+"1424",1424,"Now","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",1424
+"1425",1425,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1425
+"1426",1426,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1426
+"1427",1427,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1427
+"1428",1428,"Now","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",907
+"1429",1429,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1429
+"1430",1430,"N/A","N/A","North South","N/A","N/A","N/A","N/A","N/A","N/A",1430
+"1431",1431,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1431
+"1432",1432,"N/A","N/A","North South","N/A","N/A","N/A","N/A","N/A","N/A",1430
+"1433",1433,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",301
+"1434",1434,"N/A","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",1434
+"1435",1435,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1435
+"1436",1436,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1435
+"1437",1437,"Now","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",911
+"1438",1438,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1438
+"1439",1439,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1439
+"1440",1440,"06 Jul","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1440
+"1441",1441,"Now","N/A","East","N/A","N/A","N/A","N/A","N/A","N/A",1441
+"1442",1442,"Now","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",458
+"1443",1443,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1443
+"1444",1444,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1444
+"1445",1445,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1445
+"1446",1446,"Now","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",922
+"1447",1447,"01 Jan","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1447
+"1448",1448,"Now","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",1448
+"1449",1449,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1449
+"1450",1450,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1450
+"1451",1451,"N/A","Flexible","South West","N/A","N/A","N/A","N/A","N/A","N/A",1450
+"1452",1452,"N/A","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",1452
+"1453",1453,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1453
+"1454",1454,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",947
+"1455",1455,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1455
+"1456",1456,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1456
+"1457",1457,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1457
+"1458",1458,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1457
+"1459",1459,"01 Aug 2021","N/A","North","N/A","N/A","N/A","N/A","N/A","N/A",1457
+"1460",1460,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1457
+"1461",1461,"01 Aug 2021","N/A","North South","N/A","N/A","N/A","N/A","N/A","N/A",1457
+"1462",1462,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1457
+"1463",1463,"Now","N/A","North South","N/A","N/A","N/A","N/A","N/A","N/A",1457
+"1464",1464,"N/A","Flexible","North West","N/A","N/A","N/A","N/A","N/A","N/A",1464
+"1465",1465,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1465
+"1466",1466,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1465
+"1467",1467,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1465
+"1468",1468,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1468
+"1469",1469,"Now","N/A","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1469
+"1470",1470,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1470
+"1471",1471,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1471
+"1472",1472,"N/A","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",1472
+"1473",1473,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1473
+"1474",1474,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1473
+"1475",1475,"Now","N/A","North East","N/A","N/A","N/A","N/A","N/A","N/A",1475
+"1476",1476,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1475
+"1477",1477,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1477
+"1478",1478,"01 Sep 2022","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1477
+"1479",1479,"Now","N/A","South East","Partially Furnished","N/A","N/A","N/A","N/A","N/A",954
+"1480",1480,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",954
+"1481",1481,"14 May","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",1481
+"1482",1482,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1482
+"1483",1483,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1483
+"1484",1484,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",957
+"1485",1485,"Now","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",466
+"1486",1486,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1486
+"1487",1487,"Now","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1486
+"1488",1488,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1486
+"1489",1489,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1489
+"1490",1490,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1490
+"1491",1491,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1490
+"1492",1492,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",471
+"1493",1493,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1493
+"1494",1494,"Now","Flexible","North West","N/A","N/A","N/A","N/A","N/A","N/A",1494
+"1495",1495,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",477
+"1496",1496,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1496
+"1497",1497,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1496
+"1498",1498,"N/A","N/A","North South","N/A","N/A","N/A","N/A","N/A","N/A",1498
+"1499",1499,"N/A","N/A","North South","N/A","N/A","N/A","N/A","N/A","N/A",1498
+"1500",1500,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",479
+"1501",1501,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",479
+"1502",1502,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",479
+"1503",1503,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",479
+"1504",1504,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",479
+"1505",1505,"15 Mar","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",479
+"1506",1506,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",479
+"1507",1507,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",479
+"1508",1508,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1508
+"1509",1509,"Now","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",1509
+"1510",1510,"Now","Flexible","North East","N/A","N/A","N/A","N/A","N/A","N/A",485
+"1511",1511,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",485
+"1512",1512,"Now","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1512
+"1513",1513,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1513
+"1514",1514,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1513
+"1515",1515,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",546
+"1516",1516,"N/A","Flexible","West","N/A","N/A","N/A","N/A","N/A","N/A",301
+"1517",1517,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1517
+"1518",1518,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",1517
+"1519",1519,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1519
+"1520",1520,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1519
+"1521",1521,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1519
+"1522",1522,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1519
+"1523",1523,"N/A","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1519
+"1524",1524,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1524
+"1525",1525,"Now","N/A","N/A","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1525
+"1526",1526,"Now","Flexible","South West","N/A","N/A","N/A","N/A","N/A","N/A",1526
+"1527",1527,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1527
+"1528",1528,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1527
+"1529",1529,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1529
+"1530",1530,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1529
+"1531",1531,"Now","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1531
+"1532",1532,"N/A","Flexible","North West","N/A","N/A","N/A","N/A","N/A","N/A",1532
+"1533",1533,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1533
+"1534",1534,"Now","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1534
+"1535",1535,"N/A","N/A","South West","N/A","N/A","N/A","N/A","N/A","N/A",1535
+"1536",1536,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1012
+"1537",1537,"Now","Flexible","South East","N/A","N/A","N/A","N/A","N/A","N/A",1537
+"1538",1538,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1014
+"1539",1539,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1014
+"1540",1540,"N/A","Flexible","East","N/A","N/A","N/A","N/A","N/A","N/A",1014
+"1541",1541,"N/A","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",301
+"1542",1542,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1015
+"1543",1543,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1015
+"1544",1544,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",1017
+"1545",1545,"Now","Flexible","West","N/A","N/A","N/A","N/A","N/A","N/A",1017
+"1546",1546,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1546
+"1547",1547,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1019
+"1548",1548,"N/A","Flexible","South","N/A","N/A","N/A","N/A","N/A","N/A",1548
+"1549",1549,"N/A","Flexible","North South","N/A","N/A","N/A","N/A","N/A","N/A",1549
+"1550",1550,"Now","Flexible","South West","N/A","N/A","N/A","N/A","N/A","N/A",1550
+"1551",1551,"N/A","Flexible","North","N/A","N/A","N/A","N/A","N/A","N/A",1550
+"1552",1552,"N/A","N/A","North","N/A","N/A","N/A","N/A","N/A","N/A",1552
+"1553",1553,"Now","N/A","South","Partially Furnished","N/A","N/A","N/A","N/A","N/A",1553
+"1554",1554,"N/A","N/A","N/A","Fully Furnished","N/A","N/A","N/A","N/A","N/A",1036
+"1555",1555,"Now","N/A","North South","N/A","N/A","N/A","N/A","N/A","N/A",1555
+"1556",1556,"Now","Flexible","N/A","N/A","N/A","N/A","N/A","N/A","N/A",1556
+"1557",1557,"Now","N/A","East","Fully Furnished","N/A","N/A","N/A","N/A","N/A",1557
+"1558",1558,"Now","N/A","South","N/A","N/A","N/A","N/A","N/A","N/A",1557
