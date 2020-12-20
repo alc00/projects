@@ -95,8 +95,14 @@ shinyUI(fluidPage(
             textOutput("asset_value"),
             
             h4("Max Living Age with Positive Net Worth"),
-            textOutput("breakeven_age")
+            textOutput("breakeven_age"),
             
+            # Table Output
+            
+            h3(""),
+            
+            h4("Computation Table"),
+            dataTableOutput("comp_table")
         )
     )
 ))

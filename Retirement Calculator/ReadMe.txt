@@ -15,4 +15,4 @@ Tools/Languages Used:
 
 
 Message:
-This was created as part of the requirements of the Data Science Specialization: Developing Data Products by Johns Hopkins University hosted by Coursera.
+This was initially created as part of the requirements of the Data Science Specialization: Developing Data Products by Johns Hopkins University hosted by Coursera.

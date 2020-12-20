@@ -135,14 +135,26 @@ shinyServer(function(input, output) {
             )
             lines(x=df_sel()$age, y=df_sel()$age-df_sel()$age, col = "gray")
         })
-    
+        
     output$plot1 <- renderPlot(plot_sel_1())
     output$plot2 <- renderPlot(plot_sel_2())
     
-    output$active_income <- renderText(sum(df_sel()$active_income))
-    output$asset_income <- renderText(sum(df_sel()$asset_income))
-    output$total_income <- renderText(sum(df_sel()$total_income))
-    output$living_costs <- renderText(sum(df_sel()$living_costs))
-    output$asset_value <- renderText(sum(df_sel()$net_savings))
+    output$active_income <- renderText(format(sum(df_sel()$active_income), nsmall=2, big.mark=",", scientific=F))
+    output$asset_income <- renderText(format(sum(df_sel()$asset_income), nsmall=2, big.mark=",", scientific=F))
+    output$total_income <- renderText(format(sum(df_sel()$total_income), nsmall=2, big.mark=",", scientific=F))
+    output$living_costs <- renderText(format(sum(df_sel()$living_costs), nsmall=2, big.mark=",", scientific=F))
+    output$asset_value <- renderText(format(sum(df_sel()$net_savings), nsmall=2, big.mark=",", scientific=F))
     output$breakeven_age <- renderText(max(df_sel()[df_sel()$asset_value >=0, "age"]))
+    
+    output$comp_table <- renderDataTable(data.frame(
+                                            Year = df_sel()$year,
+                                            Ending_Age = df_sel()$age,
+                                            Active_Income = format(df_sel()$active_income, nsmall=2, big.mark=",", scientific=F),
+                                            Investment_Income = format(df_sel()$asset_income, nsmall=2, big.mark=",", scientific=F),
+                                            Total_Income = format(df_sel()$total_income, nsmall=2, big.mark=",", scientific=F),
+                                            Expenses = format(df_sel()$living_costs, nsmall=2, big.mark=",", scientific=F),
+                                            Net_Savings = format(df_sel()$net_savings, nsmall=2, big.mark=",", scientific=F),
+                                            Net_Worth = format(df_sel()$asset_value, nsmall=2, big.mark=",", scientific=F)
+                                            )
+                                        )
 })
